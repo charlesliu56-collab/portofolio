@@ -1,0 +1,49 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "description": "A Quasar Project",
+  "productName": "Joshua's Portfolio",
+  "author": "joshua.limerson <joshua.limerson@cp.co.id>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.ts,.vue ./",
+    "format": "prettier --write \"**/*.{js,ts,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "deploy": "gh-pages -d dist/spa"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "@tsparticles/slim": "^3.7.1",
+    "@tsparticles/vue3": "^3.0.1",
+    "aos": "^2.3.4",
+    "quasar": "^2.16.0",
+    "tsparticles": "^3.7.1",
+    "typed.js": "^2.1.0",
+    "vue": "^3.4.18",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.9.0",
+    "@types/aos": "^3.0.7",
+    "@types/node": "^12.20.21",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "gh-pages": "^6.1.1",
+    "prettier": "^2.5.1",
+    "push-dir": "^0.4.1",
+    "typescript": "~5.5.4",
+    "vite-plugin-checker": "^0.7.2",
+    "vue-tsc": "^2.0.29"
+  },
+  "engines": {
+    "node": "^20 || ^18 || ^16",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
