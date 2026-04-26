@@ -109,13 +109,13 @@
                 class="text-white text-weight-bold text-center"
                 v-if="$q.screen.gt.xs"
               >
-                Joshua Christian Limerson
+                Charles Liu
               </h2>
               <h3
                 class="text-white text-weight-bold text-center"
                 v-if="$q.screen.xs"
               >
-                Joshua Christian Limerson
+                Charles Liu
               </h3>
               <div class="row justify-center">
                 <p class="text-h5">
@@ -143,7 +143,7 @@
 
                 <a
                   class="socialContainer containerTwo"
-                  href="https://github.com/JoshuaChristianLimerson"
+                  href="https://github.com/charlesliu56-collab"
                   target="_blank"
                 >
                   <svg viewBox="0 0 16 16" class="socialSvg twitterSvg">
@@ -167,7 +167,7 @@
 
                 <a
                   class="socialContainer containerFour"
-                  href="mailto:jcljoshualim@gmail.com?subject=Email%20to%20Joshua%20Christian%20Limerson&body=Hello%20there!%20Joshua%20Christian%20Limerson,"
+                  href="mailto:charles.liu56@gmail.com?subject=Email%20to%20Charles%20Liu&body=Hello%20there%20Charles%20Liu,"
                   target="_blank"
                 >
                   <svg viewBox="0 0 16 16" class="socialSvg emailSvg">
@@ -301,17 +301,17 @@
               class="text-primary text-weight-medium row"
               :class="$q.screen.gt.sm ? '' : 'justify-center text-center'"
             >
-              I am Joshua Christian Limerson,
+              I am Charles Liu,
             </p>
             <p
               class="text-blue-grey text-subtitle1 text-justify"
               :class="$q.screen.gt.sm ? 'q-pr-xl' : 'q-px-md'"
             >
-              I am a graduate Computer Science (Global Class) student on BINUS
-              UNIVERSITY. My passion on Computer Science subject itself lies on
-              UI/UX Designer, Front-End Development, and animations. I always
-              wanted to learn more about how can I improve my passion and ideas
-              and to see new opportunities to expand my skills in every aspect.
+              I am a full-stack developer specializing in Vue.js and Laravel
+              with expertise in building scalable web solutions. Experienced in
+              event-driven architecture (Kafka), real-time systems (Firebase),
+              and database optimization (PostgreSQL). Collaborative team player
+              focused on delivering efficient and maintainable code.
             </p>
           </div>
           <div style="height: 200px" v-if="$q.screen.gt.sm"></div>
@@ -386,45 +386,34 @@
                 >
                   <q-timeline color="primary">
                     <q-timeline-entry
-                      title="Ux Engineer"
+                      title="Full Time Web Developer"
                       :subtitle="timelineSubtitle"
                       data-aos="fade-up"
                     >
                       <div class="text-subtitle1">
                         <ul class="jobDesc">
                           <li class="q-pb-sm">
-                            Designed and prototyped user interfaces and
-                            experiences (UI/UX) using Figma to enhance customer
-                            engagement and support the implementation of new
-                            applications.
+                            Develop and maintain internal web applications using
+                            Vue.js (Quasar) and Laravel.
                           </li>
                           <li class="q-pb-sm">
-                            Partner with developers to ensure designs are
-                            implemented as intended while maintaining
-                            functionality and performance.
+                            Optimize PostgreSQL database performance for
+                            high-traffic systems.
                           </li>
                           <li class="q-pb-sm">
-                            Developed and maintained web applications front-end
-                            by coding in HTML, CSS, JavaScript, Typescript, and
-                            Vue.js. Utilizing Quasar library for components and
-                            user-friendly designs.
+                            Implement real-time features using Firebase and
+                            Apache Kafka.
                           </li>
                           <li class="q-pb-sm">
-                            Develop interactive prototypes to demonstrate user
-                            flows and functionality.
-                          </li>
-                          <li>
-                            Created instructional content, including user
-                            manuals, presentations, and video tutorials, to
-                            support users in navigating and utilizing company
-                            applications effectively.
+                            Collaborate with cross-functional teams using Agile
+                            methodologies.
                           </li>
                         </ul>
                       </div>
                     </q-timeline-entry>
                     <q-timeline-entry
-                      title="Web Developer Intern"
-                      subtitle="August 2022 - February 2023 (7 Months)"
+                      title="Internship Web Developer"
+                      subtitle="Feb 2024 - Feb 2025"
                       data-aos="fade-up"
                     >
                       <div
@@ -434,27 +423,15 @@
                       >
                         <ul class="jobDesc">
                           <li class="q-pb-sm">
-                            Designed and prototyped user interfaces and
-                            experiences (UI/UX) using Figma to enhance customer
-                            engagement and support the implementation of new
-                            features.
+                            Assisted in building role-based access systems for
+                            internal tools.
                           </li>
                           <li class="q-pb-sm">
-                            Developed and maintained web applications by coding
-                            in HTML, CSS, JavaScript, Vue.js, and PHP (Laravel),
-                            utilizing Vuetify library for responsive and
-                            user-friendly designs.
+                            Developed responsive UIs with Quasar Framework.
                           </li>
                           <li class="q-pb-sm">
-                            Conducted user research, usability testing, and
-                            analysis to continuously improve website
-                            functionality and user satisfaction.
-                          </li>
-                          <li>
-                            Created instructional content, including user
-                            manuals and video tutorials, to support users in
-                            navigating and utilizing company applications
-                            effectively.
+                            Participated in code reviews and bug fixes for
+                            production systems.
                           </li>
                         </ul>
                       </div>
@@ -471,79 +448,71 @@
               </div>
               <q-timeline color="primary">
                 <q-timeline-entry
-                  title="Xi'an Jiaotong-Liverpool University"
-                  subtitle="February 2022 - June 2022"
-                  data-aos="fade-up"
-                >
-                  <div class="text-subtitle1">
-                    <q-icon style="margin-right: 5px">
-                      <q-img :src="educationIcon" /> </q-icon
-                    >Certified Study Abroad, Computer Science <br /><q-icon
-                      style="margin-right: 5px"
-                    >
-                      <q-img :src="locationIcon" /> </q-icon
-                    >Suzhou, China
-                  </div>
-                </q-timeline-entry>
-
-                <q-timeline-entry
                   title="Binus University"
-                  subtitle="September 2019 - July 2023"
+                  subtitle="September 2021 - July 2025"
                   data-aos="fade-up"
                 >
                   <div class="text-subtitle1">
                     <q-icon style="margin-right: 5px">
-                      <q-img :src="educationIcon" /> </q-icon
-                    >Bachelor's Degree, Computer Science
+                      <q-img :src="educationIcon" />
+                    </q-icon>
+                    Bachelor's Degree, Computer Science
                     <br />
                     <q-icon style="margin-right: 5px">
-                      <q-img :src="locationIcon" /> </q-icon
-                    >Jakarta, Indonesia <br /><q-icon style="margin-right: 5px">
+                      <q-img :src="locationIcon" />
+                    </q-icon>
+                    Jakarta, Indonesia <br /><q-icon style="margin-right: 5px">
                       <q-img :src="gpaIcon" />
                     </q-icon>
-                    GPA: 3.61
+                    GPA: 3.74
                   </div>
                 </q-timeline-entry>
                 <q-timeline-entry
-                  title="SMA Mondial Batam"
+                  title="SMA Chandra Kusuma"
                   subtitle="2016 - 2019"
                   data-aos="fade-up"
                 >
                   <div class="text-subtitle1">
                     <q-icon style="margin-right: 5px">
-                      <q-img :src="educationIcon" /> </q-icon
-                    >Senior High School, Science Degree <br /><q-icon
-                      style="margin-right: 5px"
-                    >
-                      <q-img :src="locationIcon" /> </q-icon
-                    >Batam, Indonesia
+                      <q-img :src="educationIcon" />
+                    </q-icon>
+                    Senior High School
+                    <br />
+                    <q-icon style="margin-right: 5px">
+                      <q-img :src="locationIcon" />
+                    </q-icon>
+                    Jakarta, Indonesia
                   </div>
                 </q-timeline-entry>
                 <q-timeline-entry
-                  title="SMP Mondial Batam"
+                  title="SMP Chandra Kusuma"
                   subtitle="2013 - 2016"
                   data-aos="fade-up"
                 >
                   <div class="text-subtitle1">
                     <q-icon style="margin-right: 5px">
-                      <q-img :src="educationIcon" /> </q-icon
-                    >Junior High School <br /><q-icon style="margin-right: 5px">
-                      <q-img :src="locationIcon" /> </q-icon
-                    >Batam, Indonesia
+                      <q-img :src="educationIcon" />
+                    </q-icon>
+                    Junior High School <br /><q-icon style="margin-right: 5px">
+                      <q-img :src="locationIcon" />
+                    </q-icon>
+                    Jakarta, Indonesia
                   </div>
                 </q-timeline-entry>
                 <q-timeline-entry
-                  title="SD Mondial Batam"
+                  title="SD Chandra Kusuma"
                   subtitle="2007 - 2013"
                   data-aos="fade-up"
                 >
                   <div class="text-subtitle1">
                     <q-icon style="margin-right: 5px">
-                      <q-img :src="educationIcon" /> </q-icon
-                    >Primary School <br />
+                      <q-img :src="educationIcon" />
+                    </q-icon>
+                    Primary School <br />
                     <q-icon style="margin-right: 5px">
-                      <q-img :src="locationIcon" /> </q-icon
-                    >Batam, Indonesia
+                      <q-img :src="locationIcon" />
+                    </q-icon>
+                    Jakarta, Indonesia
                   </div>
                 </q-timeline-entry>
               </q-timeline>
@@ -575,7 +544,7 @@
           v-if="$q.screen.gt.xs"
         />
       </div>
-      <div class="row justify-center q-px-lg">
+      <div class="row justify-center items-stretch q-px-lg">
         <div
           v-for="(card, index) in cardsContent"
           :key="index"
@@ -584,7 +553,7 @@
         >
           <q-card
             style="border-radius: 12px"
-            class="shadow-8 projectCard cursor-pointer"
+            class="shadow-8 projectCard full-height-card cursor-pointer"
             :class="{
               hovered: hoveredIndex === index,
               notHovered: hoveredIndex !== null && hoveredIndex !== index,
@@ -681,444 +650,288 @@
       </q-card-section>
 
       <q-separator />
-      <q-card-section class="q-pa-sm"
-        ><div class="row">
-          <div
-            style="border-radius: 20px"
-            :style="{
-              borderRadius: '20px',
-              backgroundColor: datas[hoveredIndex].color,
-            }"
-            :class="$q.screen.gt.xs ? 'col-4' : 'col-12'"
-          >
-            <div style="height: 80vh">
-              <iframe
-                :src="datas[hoveredIndex].spline"
-                frameborder="0"
-                width="100%"
-                height="100%"
-                class="q-pa-sm"
-              ></iframe>
+      <q-card-section class="q-pa-sm">
+        <div class="row items-start q-col-gutter-md">
+          <div class="col-12 col-md-4">
+            <q-card class="my-card no-shadow" style="border-radius: 16px">
+              <q-card-section class="q-pa-none">
+                <q-img
+                  :src="datas[hoveredIndex].displayImage"
+                  style="border-radius: 16px; max-height: 420px"
+                  :ratio="16 / 9"
+                  contain
+                />
+              </q-card-section>
+            </q-card>
+          </div>
+
+          <div class="col-12 col-md-5">
+            <q-card class="my-card no-shadow" style="border-radius: 16px">
+              <q-card-section class="q-pa-none">
+                <q-img
+                  :src="datas[hoveredIndex].dialogImage"
+                  style="border-radius: 16px; max-height: 420px"
+                  :ratio="16 / 9"
+                  contain
+                />
+              </q-card-section>
+            </q-card>
+          </div>
+
+          <div class="col-12 col-md-3">
+            <div class="row q-col-gutter-md">
+              <div class="col-12">
+                <q-card
+                  class="bg-grey-8 text-white text-weight-medium no-shadow q-px-md q-py-md"
+                  style="
+                    border-radius: 16px;
+                    background-color: #94cf96;
+                    min-height: 150px;
+                  "
+                >
+                  <q-card-section
+                    class="row justify-between items-center q-pa-none"
+                  >
+                    <div class="column items-start">
+                      <q-chip
+                        text-color="white"
+                        class="q-ml-none"
+                        :style="{
+                          backgroundColor: datas[hoveredIndex].color,
+                        }"
+                      >
+                        Role
+                      </q-chip>
+                      <div class="text-subtitle1 text-weight-medium q-mt-sm">
+                        {{ datas[hoveredIndex].role }}
+                      </div>
+                    </div>
+                    <q-avatar rounded style="height: 56px; width: 56px">
+                      <img src="../assets/role.png" />
+                    </q-avatar>
+                  </q-card-section>
+                </q-card>
+              </div>
+
+              <div class="col-12">
+                <q-card
+                  class="bg-grey-8 text-white text-weight-medium no-shadow q-px-md q-py-md"
+                  style="
+                    border-radius: 16px;
+                    background-color: #94cf96;
+                    min-height: 150px;
+                  "
+                >
+                  <q-card-section
+                    class="row justify-between items-center q-pa-none"
+                  >
+                    <div class="column items-start">
+                      <q-chip
+                        text-color="white"
+                        class="q-ml-none"
+                        :style="{
+                          backgroundColor: datas[hoveredIndex].color,
+                        }"
+                      >
+                        Platform
+                      </q-chip>
+                      <div class="text-subtitle1 text-weight-medium q-mt-sm">
+                        {{ datas[hoveredIndex].platform }}
+                      </div>
+                    </div>
+                    <q-avatar rounded style="height: 56px; width: 56px">
+                      <img :src="datas[hoveredIndex].platformIcon" />
+                    </q-avatar>
+                  </q-card-section>
+                </q-card>
+              </div>
             </div>
           </div>
-          <div :class="$q.screen.gt.xs ? 'col' : 'col-12'">
-            <q-scroll-area
-              style="height: 80vh"
-              visible
-              :thumb-style="thumbStyle"
-              ><div class="row q-px-md">
-                <div :class="$q.screen.gt.xs ? 'col-8' : 'col-12'">
-                  <div>
-                    <q-card
-                      class="my-card no-shadow"
-                      style="border-radius: 16px"
-                    >
-                      <q-card-section class="q-pa-none">
-                        <q-img
-                          :src="datas[hoveredIndex].displayImage"
-                          style="border-radius: 16px"
-                          :ratio="16 / 9"
-                          fill
-                        />
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </div>
-                <div
-                  :class="$q.screen.gt.xs ? 'col-4 q-pl-sm' : 'col-12 q-pt-md'"
-                >
-                  <div>
-                    <q-card
-                      class="bg-grey-8 text-white text-weight-medium no-shadow q-mb-lg q-py-md"
-                      style="border-radius: 16px; background-color: #94cf96"
-                    >
-                      <q-card-section class="row justify-between items-center">
-                        <div class="column items-start">
-                          <q-chip
-                            text-color="white"
-                            class="q-ml-none"
-                            :style="{
-                              backgroundColor: datas[hoveredIndex].color,
-                            }"
-                          >
-                            Role
-                          </q-chip>
-                          <div
-                            class="text-center text-subtitle1 text-weight-medium"
-                          >
-                            {{ datas[hoveredIndex].role }}
-                          </div>
-                        </div>
-                        <q-avatar rounded style="height: 100%">
-                          <img src="../assets/role.png" />
-                        </q-avatar>
-                      </q-card-section>
-                    </q-card>
-                    <q-card
-                      class="bg-grey-8 text-white text-weight-medium no-shadow q-py-md"
-                      style="border-radius: 16px; background-color: #94cf96"
-                    >
-                      <q-card-section
-                        class="row justify-between items-center q-py-md"
-                      >
-                        <div class="column items-start">
-                          <q-chip
-                            text-color="white"
-                            class="q-ml-none"
-                            :style="{
-                              backgroundColor: datas[hoveredIndex].color,
-                            }"
-                          >
-                            Platform
-                          </q-chip>
-                          <div
-                            class="text-center text-subtitle1 text-weight-medium"
-                          >
-                            {{ datas[hoveredIndex].platform }}
-                          </div>
-                        </div>
-                        <q-avatar rounded style="height: 100%">
-                          <img :src="datas[hoveredIndex].platformIcon" />
-                        </q-avatar>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </div>
-                <div class="col-12 q-pt-md">
-                  <div>
-                    <q-card
-                      class="text-grey-10 no-shadow"
-                      style="border-radius: 16px; border: 2px solid #bdbdbd"
-                    >
-                      <q-card-section>
-                        <div class="text-weight-bold">Description</div>
-                        <q-separator
-                          class="q-my-sm"
-                          size="2px"
-                          color="grey-4"
-                        />
-                        {{ datas[hoveredIndex].description }}
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </div>
-                <div class="col-12 q-pt-md">
-                  <div>
-                    <q-card
-                      class="text-grey-10 no-shadow"
-                      style="border-radius: 16px; border: 2px solid #bdbdbd"
-                    >
-                      <q-card-section>
-                        <div class="text-weight-bold">Features</div>
-                        <q-separator
-                          class="q-my-sm"
-                          size="2px"
-                          color="grey-4"
-                        />
+        </div>
 
-                        <ul class="jobDesc q-pl-md">
-                          <li
-                            v-for="list in datas[hoveredIndex].featuresList"
-                            :key="list.feature"
-                            class="q-pb-md"
-                          >
-                            {{ list.feature }}
-                          </li>
-                        </ul>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </div>
-                <div class="col-12 q-pt-md">
-                  <div>
-                    <q-card
-                      class="text-grey-10 no-shadow"
-                      style="border-radius: 16px; border: 2px solid #bdbdbd"
-                    >
-                      <q-card-section>
-                        <div class="text-weight-bold">Tools</div>
-                        <q-separator
-                          class="q-my-sm"
-                          size="2px"
-                          color="grey-4"
-                        />
-                        <div class="row">
-                          <div
-                            class="column q-pr-md"
-                            v-for="list in datas[hoveredIndex].toolsList"
-                            :key="list.tool"
-                          >
-                            <q-avatar
-                              class="q-mb-xs"
-                              :style="{
-                                backgroundColor: datas[hoveredIndex].background,
-                              }"
-                            >
-                              <q-icon size="sm">
-                                <q-img :src="list.icon" />
-                              </q-icon>
-                            </q-avatar>
-                            <div class="text-weight-medium q-pl-xs">
-                              {{ list.tool }}
-                            </div>
-                          </div>
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </div>
-                <div class="col-12 q-pt-md">
-                  <div>
-                    <q-card
-                      class="text-grey-10 no-shadow"
-                      style="border-radius: 16px; border: 2px solid #bdbdbd"
-                    >
-                      <q-card-section>
-                        <div class="text-weight-bold">Design System</div>
-                        <q-separator
-                          class="q-my-sm"
-                          size="2px"
-                          color="grey-4"
-                        />
-                        <div>
-                          <div
-                            class="text-subtitle1"
-                            :style="{ color: datas[hoveredIndex].color }"
-                          >
-                            Color Palette
-                          </div>
-                          <div class="row q-mb-md">
-                            <div
-                              class="q-pa-sm q-mr-md"
-                              :style="{ backgroundColor: list.background }"
-                              v-for="list in datas[hoveredIndex]
-                                .colorPaletteList"
-                              :key="list.title"
-                            >
-                              <div
-                                :style="{
-                                  height: '100px',
-                                  width: '100px',
-                                  backgroundColor: list.hex,
-                                }"
-                              ></div>
-                              <div class="text-subtitle2 text-weight-medium">
-                                {{ list.title }}
-                              </div>
-                              <div class="">Hex: {{ list.hex }}</div>
-                            </div>
-                          </div>
-                          <div
-                            class="text-subtitle1"
-                            :style="{ color: datas[hoveredIndex].color }"
-                          >
-                            Typography
-                          </div>
-                          <div class="text-subtitle1">
-                            Roboto: A quick fox jumps over the lazy dog.
-                          </div>
-                          <div class="row">
-                            <div class="text-subtitle1 q-pr-sm content-center">
-                              Font Size:
-                            </div>
-                            <div
-                              class="q-pr-md content-center"
-                              :style="{ fontSize: list.title }"
-                              v-for="list in datas[hoveredIndex]
-                                .typographySizeList"
-                              :key="list.title"
-                            >
-                              {{ list.title }}
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="text-subtitle1 q-pr-sm content-center">
-                              Font Weight:
-                            </div>
-                            <div
-                              class="q-pr-md content-center text-subtitle1"
-                              :style="{ fontWeight: list.title }"
-                              v-for="list in datas[hoveredIndex]
-                                .typographyWeightList"
-                              :key="list.title"
-                            >
-                              {{ list.title }}
-                            </div>
-                          </div>
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </div>
-                <!-- <div class="col-12 q-pt-md">
-                  <div>
-                    <q-card
-                      class="text-grey-10 no-shadow"
-                      style="border-radius: 16px; border: 2px solid #bdbdbd"
-                    >
-                      <q-card-section>
-                        <div class="text-weight-bold">Timeline</div>
-                        <q-separator
-                          class="q-my-sm"
-                          size="2px"
-                          color="grey-4"
-                        />
-                        <q-timeline color="grey-8" class="q-mb-none">
-                          <q-timeline-entry
-                            v-for="list in datas[hoveredIndex].timelinesList"
-                            :key="list.title"
-                            :title="list.title"
-                            :subtitle="list.date"
-                          >
-                            <div class="row">
-                              {{ list.decsription }}
-
-                              <q-img
-                                class="col-5 q-mr-sm"
-                                :src="list.image"
-                                style="border-radius: 16px"
-                                :ratio="16 / 9"
-                              />
-                            </div>
-                          </q-timeline-entry>
-                        </q-timeline>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </div> -->
-                <div class="col-12 q-pt-md">
-                  <div>
-                    <q-card
-                      class="text-grey-10 no-shadow"
-                      style="border-radius: 16px; border: 2px solid #bdbdbd"
-                    >
-                      <q-card-section>
-                        <div class="row">
-                          <div
-                            class="text-weight-bold q-pr-sm"
-                            style="margin-top: 2px"
-                          >
-                            Screenshots
-                          </div>
-                          <q-btn
-                            round
-                            icon="chevron_left"
-                            @click="animateScrollLeft"
-                            :style="{
-                              backgroundColor: datas[hoveredIndex].color,
-                            }"
-                            size="xs"
-                            class="q-mr-sm text-white"
-                          />
-                          <q-btn
-                            round
-                            icon="chevron_right"
-                            @click="animateScrollRight"
-                            :style="{
-                              backgroundColor: datas[hoveredIndex].color,
-                            }"
-                            size="xs"
-                            class="q-mr-sm text-white"
-                          />
-                        </div>
-
-                        <q-separator
-                          class="q-my-sm"
-                          size="2px"
-                          color="grey-4"
-                        />
-                        <div class="">
-                          <q-scroll-area
-                            :style="{
-                              height:
-                                hoveredIndex <= 2
-                                  ? '650px'
-                                  : hoveredIndex <= 5
-                                  ? '200px'
-                                  : 'auto',
-                            }"
-                            :thumb-style="thumbStyle"
-                            visible
-                            ref="scrollAreaRef"
-                            ><div class="row no-wrap">
-                              <div
-                                v-for="list in datas[hoveredIndex].screenshots"
-                                :key="list.image"
-                                style="width: 300px"
-                                class="q-pa-sm"
-                              >
-                                <q-img
-                                  :src="list.image"
-                                  style="border-radius: 16px"
-                                />
-                              </div></div
-                          ></q-scroll-area>
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </div>
-                <div class="col-12 q-pt-md">
-                  <div>
-                    <q-card
-                      class="text-grey-10 no-shadow"
-                      style="border-radius: 16px; border: 2px solid #bdbdbd"
-                    >
-                      <q-card-section>
-                        <div class="text-weight-bold">
-                          Additional Information
-                        </div>
-                        <q-separator
-                          class="q-my-sm"
-                          size="2px"
-                          color="grey-4"
-                        />
-                        <div class="row">
-                          <ul
-                            class="jobDesc q-pl-md col-6"
-                            v-for="list in datas[hoveredIndex].informationsList"
-                            :key="list.title"
-                          >
-                            <li>
-                              <div class="row">
-                                <q-icon
-                                  size="sm"
-                                  :name="list.icon"
-                                  color="grey-6"
-                                />
-                                <div class="text-weight-bold q-pl-sm">
-                                  {{ list.title }}
-                                </div>
-                              </div>
-
-                              {{ list.description }}
-                            </li>
-                          </ul>
-                        </div>
-                      </q-card-section>
-                    </q-card>
-                  </div>
-                </div>
-              </div></q-scroll-area
+        <div class="row q-mt-md">
+          <div class="col-12">
+            <q-card
+              class="text-grey-10 no-shadow"
+              style="border-radius: 16px; border: 2px solid #bdbdbd"
             >
+              <q-card-section>
+                <div class="text-weight-bold">Description</div>
+                <q-separator class="q-my-sm" size="2px" color="grey-4" />
+                {{ datas[hoveredIndex].description }}
+              </q-card-section>
+            </q-card>
           </div>
-        </div></q-card-section
-      >
+
+          <div class="col-12 q-pt-md">
+            <q-card
+              class="text-grey-10 no-shadow"
+              style="border-radius: 16px; border: 2px solid #bdbdbd"
+            >
+              <q-card-section>
+                <div class="text-weight-bold">Features</div>
+                <q-separator class="q-my-sm" size="2px" color="grey-4" />
+
+                <ul class="jobDesc q-pl-md">
+                  <li
+                    v-for="list in datas[hoveredIndex].featuresList"
+                    :key="list.feature"
+                    class="q-pb-md"
+                  >
+                    {{ list.feature }}
+                  </li>
+                </ul>
+              </q-card-section>
+            </q-card>
+          </div>
+
+          <div class="col-12 q-pt-md">
+            <q-card
+              class="text-grey-10 no-shadow"
+              style="border-radius: 16px; border: 2px solid #bdbdbd"
+            >
+              <q-card-section>
+                <div class="text-weight-bold">Tools</div>
+                <q-separator class="q-my-sm" size="2px" color="grey-4" />
+                <div class="row">
+                  <div
+                    class="column q-pr-md"
+                    v-for="list in datas[hoveredIndex].toolsList"
+                    :key="list.tool"
+                  >
+                    <q-avatar
+                      class="q-mb-xs"
+                      :style="{
+                        backgroundColor: datas[hoveredIndex].background,
+                      }"
+                    >
+                      <q-icon size="sm">
+                        <q-img :src="list.icon" />
+                      </q-icon>
+                    </q-avatar>
+                    <div class="text-weight-medium q-pl-xs">
+                      {{ list.tool }}
+                    </div>
+                  </div>
+                </div>
+              </q-card-section>
+            </q-card>
+          </div>
+
+          <div class="col-12 q-pt-md">
+            <q-card
+              class="text-grey-10 no-shadow"
+              style="border-radius: 16px; border: 2px solid #bdbdbd"
+            >
+              <q-card-section>
+                <div class="text-weight-bold">Design System</div>
+                <q-separator class="q-my-sm" size="2px" color="grey-4" />
+                <div>
+                  <div
+                    class="text-subtitle1"
+                    :style="{ color: datas[hoveredIndex].color }"
+                  >
+                    Color Palette
+                  </div>
+                  <div class="row q-mb-md">
+                    <div
+                      class="q-pa-sm q-mr-md"
+                      :style="{ backgroundColor: list.background }"
+                      v-for="list in datas[hoveredIndex].colorPaletteList"
+                      :key="list.title"
+                    >
+                      <div
+                        :style="{
+                          height: '100px',
+                          width: '100px',
+                          backgroundColor: list.hex,
+                        }"
+                      ></div>
+                      <div class="text-subtitle2 text-weight-medium">
+                        {{ list.title }}
+                      </div>
+                      <div class="">Hex: {{ list.hex }}</div>
+                    </div>
+                  </div>
+                  <div
+                    class="text-subtitle1"
+                    :style="{ color: datas[hoveredIndex].color }"
+                  >
+                    Typography
+                  </div>
+                  <div class="text-subtitle1">
+                    Roboto: A quick fox jumps over the lazy dog.
+                  </div>
+                  <div class="row">
+                    <div class="text-subtitle1 q-pr-sm content-center">
+                      Font Size:
+                    </div>
+                    <div
+                      class="q-pr-md content-center"
+                      :style="{ fontSize: list.title }"
+                      v-for="list in datas[hoveredIndex].typographySizeList"
+                      :key="list.title"
+                    >
+                      {{ list.title }}
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="text-subtitle1 q-pr-sm content-center">
+                      Font Weight:
+                    </div>
+                    <div
+                      class="q-pr-md content-center text-subtitle1"
+                      :style="{ fontWeight: list.title }"
+                      v-for="list in datas[hoveredIndex].typographyWeightList"
+                      :key="list.title"
+                    >
+                      {{ list.title }}
+                    </div>
+                  </div>
+                </div>
+              </q-card-section>
+            </q-card>
+          </div>
+        </div>
+      </q-card-section>
     </q-card>
-      </q-dialog
-  >
+  </q-dialog>
 </template>
 
 <script setup lang="ts">
-import { onMounted, onUnmounted, reactive, ref, computed, Ref } from 'vue';
+import { onMounted, onUnmounted, ref, computed, Ref } from 'vue';
 import ChipList from 'src/components/chipList.vue';
 import Typed from 'typed.js';
 import { QIcon, QScrollArea } from 'quasar';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+//data
+import dialogData from 'src/components/data/dialogData.js';
+
+//images
+import figma from 'src/assets/Figma-logo.png';
+import html from 'src/assets/HTML5-Badge.png';
+import css from 'src/assets/CSS3-logo.png';
+import javascript from 'src/assets/Javascript-logo.png';
+import typescript from 'src/assets/Typescript-logo.png';
+import vue3 from 'src/assets/Vue-logo.png';
+import quasar from 'src/assets/quasar.png';
+import git from 'src/assets/Git-Icon.png';
+import nestjs from 'src/assets/nestjs.png';
+import n8n from 'src/assets/n8n.png';
+import kafka from 'src/assets/kafka.png';
+import redis from 'src/assets/redis.png';
+import locationIcon from 'src/assets/location.png';
+import educationIcon from 'src/assets/mortarboard.png';
+import gpaIcon from 'src/assets/gpa.png';
+import web from 'src/assets/web-developer.gif';
+import weborderfeedmill1 from 'src/assets/weborderfeedmill/1.png';
+import srm1 from 'src/assets/srm/1.png';
+import comdiv from 'src/assets/posters/e-comdiv.jpg';
+
 // Define the start date
-const startDate: Date = new Date('2023-03-01');
+const startDate: Date = new Date('2025-02-01');
 
 // Create a computed property to calculate the duration
 const duration: Ref<string> = computed(() => {
@@ -1150,11 +963,11 @@ const duration: Ref<string> = computed(() => {
 // Create a computed property for the full subtitle string
 const timelineSubtitle: Ref<string> = computed(() => {
   // Use the calculated duration in the final subtitle
-  return `March 2023 - Present (${duration.value})`;
+  return `Feb 2025 - Present (${duration.value})`;
 });
 
 // Define the start date for the second entry
-const startDate2022: Date = new Date('2022-08-01');
+const startDate2022: Date = new Date('2024-02-01');
 
 // Create a computed property to calculate the duration for the second entry
 const duration2022: Ref<string> = computed(() => {
@@ -1183,11 +996,8 @@ const duration2022: Ref<string> = computed(() => {
 
 // Create a computed property for the full subtitle string for the second entry
 const timelineSubtitle2022: Ref<string> = computed(() => {
-  return `August 2022 - Present (${duration2022.value})`;
+  return `Feb 2024 - Present (${duration2022.value})`;
 });
-
-//data
-import dialogData from 'src/components/data/dialogData.js';
 
 interface Data {
   id: number;
@@ -1238,46 +1048,21 @@ interface Data {
   }>;
 }
 
-const datas = ref<Data[]>(dialogData);
-
-//images
-import figma from 'src/assets/Figma-logo.png';
-import html from 'src/assets/HTML5-Badge.png';
-import css from 'src/assets/CSS3-logo.png';
-import javascript from 'src/assets/Javascript-logo.png';
-import typescript from 'src/assets/Typescript-logo.png';
-import vue3 from 'src/assets/Vue-logo.png';
-import nuxt from 'src/assets/nuxt.png';
-import photoshop from 'src/assets/Photoshop.png';
-import premierpro from 'src/assets/AdobePP-icon.png';
-import quasar from 'src/assets/quasar.png';
-import msoffice from 'src/assets/MSOffice-logo.png';
-import canva from 'src/assets/Canva-icon.png';
-import git from 'src/assets/Git-Icon.png';
-import locationIcon from 'src/assets/location.png';
-import educationIcon from 'src/assets/mortarboard.png';
-import gpaIcon from 'src/assets/gpa.png';
-import mobile from 'src/assets/mobile-apps.gif';
-import web from 'src/assets/web-developer.gif';
-import bctech from 'src/assets/posters/bctech.jpg';
-import cpic from 'src/assets/posters/cpic.jpg';
-import customerpersona from 'src/assets/posters/customerpersona.png';
-import comdiv from 'src/assets/posters/e-comdiv.jpg';
-import immobile from 'src/assets/posters/immobile.jpg';
-import mypigfarm from 'src/assets/posters/mypigfarm.jpg';
+const datas = ref<Data[]>(
+  dialogData.filter((item) =>
+    [
+      'E-Comdiv',
+      'Supplier Relationship Management',
+      'Feedmill Web Order System',
+    ].includes(item.title)
+  )
+);
 
 const typedStrings =
-  'a Designer, an Editor, a Web Developer, a Frontend Developer, a Graduate'; // This could be dynamic as well
+  'a Full Stack Developer, a Web Developer, a Vue.js Developer, a Quasar Developer'; // This could be dynamic as well
 
 const reachedBottom = ref<boolean>(false);
 const fullHeight = ref(false);
-
-const thumbStyle = reactive({
-  borderRadius: '5px',
-  backgroundColor: '#616161',
-  width: '7px',
-  opacity: '0.75',
-});
 
 const handleScroll = () => {
   const documentHeight = document.documentElement.scrollHeight;
@@ -1368,19 +1153,16 @@ const moveTo = (id: string) => {
 
 // Define the chip data
 const chips = [
-  { color: '#e9e9e9', text: 'Figma', image: figma },
   { color: '#e9e9e9', text: 'HTML5', image: html },
   { color: '#e9e9e9', text: 'CSS', image: css },
   { color: '#e9e9e9', text: 'Javascript', image: javascript },
   { color: '#e9e9e9', text: 'Typescript', image: typescript },
   { color: '#e9e9e9', text: 'Vue3', image: vue3 },
-  { color: '#e9e9e9', text: 'NuxtJs', image: nuxt },
   { color: '#e9e9e9', text: 'Quasar', image: quasar },
-  { color: '#e9e9e9', text: 'Photoshop', image: photoshop },
-  { color: '#e9e9e9', text: 'Premier pro', image: premierpro },
-
-  { color: '#e9e9e9', text: 'Microsoft Office', image: msoffice },
-  { color: '#e9e9e9', text: 'Canva', image: canva },
+  { color: '#e9e9e9', text: 'NestJS', image: nestjs },
+  { color: '#e9e9e9', text: 'Redis', image: redis },
+  { color: '#e9e9e9', text: 'Kafka', image: kafka },
+  { color: '#e9e9e9', text: 'n8n', image: n8n },
   { color: '#e9e9e9', text: 'Git', image: git },
 ];
 
@@ -1397,50 +1179,26 @@ interface projectsCard {
 
 const cardsContent = ref<projectsCard[]>([
   {
-    title: 'Inventory Management (IM) mobile',
-    date: 'June 2023',
-    role: 'UI & UX Designer',
-    image: immobile,
-    avatar: figma,
-    trailing: mobile,
-  },
-  {
-    title: 'MyPigFarm',
-    date: 'December 2023',
-    role: 'UI & UX Designer',
-    image: mypigfarm,
-    avatar: figma,
-    trailing: mobile,
-  },
-  {
-    title: 'Charoen Pokphand Indonesia Commerce (CPIC)',
-    date: 'September 2024',
-    role: 'UI & UX Designer',
-    image: cpic,
-    avatar: figma,
-    trailing: mobile,
-  },
-  {
     title: 'E-Comdiv',
     date: 'March 2024',
-    role: 'UX Engineer',
+    role: 'Full Stack Developer',
     image: comdiv,
     avatar: figma,
     trailing: web,
   },
   {
-    title: 'Customer Persona',
-    date: 'July 2023',
-    role: 'UX Engineer',
-    image: customerpersona,
+    title: 'Supplier Relationship Management',
+    date: 'October 2024',
+    role: 'Full Stack Developer',
+    image: srm1,
     avatar: figma,
     trailing: web,
   },
   {
-    title: 'BC-Tech',
-    date: 'March 2025',
-    role: 'Front End Developer',
-    image: bctech,
+    title: 'Feedmill Web Order System',
+    date: 'March 2024',
+    role: 'Full Stack Developer',
+    image: weborderfeedmill1,
     avatar: figma,
     trailing: web,
   },
@@ -1453,38 +1211,13 @@ interface InfoItem {
 
 // Create a ref with the array of InfoItem objects
 const infoList = ref<InfoItem[]>([
-  { label: 'Birth Date', value: 'Singapore, 25 April 2001' },
-  { label: 'Phone', value: '+(62) 895 330 690 960' },
-  { label: 'City', value: 'Batam / Jakarta' },
+  { label: 'Birth Date', value: 'Jakarta, 11 April 2003' },
+  { label: 'Phone', value: '+62 877 8515 0006' },
+  { label: 'City', value: 'Jakarta' },
   { label: 'Age', value: '23 Years Old' },
-  { label: 'Email', value: 'jcljoshualim@gmail.com' },
+  { label: 'Email', value: 'charles.liu56@gmail.com' },
   { label: 'Languages', value: 'English, Bahasa Indonesia' },
 ]);
-
-interface ScrollArea {
-  setScrollPosition: (
-    direction: 'horizontal' | 'vertical',
-    position: number,
-    duration: number
-  ) => void;
-}
-
-const scrollAreaRef = ref<ScrollArea | null>(null);
-const position = ref(0);
-
-const animateScrollLeft = () => {
-  if (scrollAreaRef.value) {
-    position.value -= 200; // Update position first
-    scrollAreaRef.value.setScrollPosition('horizontal', position.value, 200);
-  }
-};
-
-const animateScrollRight = () => {
-  if (scrollAreaRef.value) {
-    position.value += 200; // Update position first
-    scrollAreaRef.value.setScrollPosition('horizontal', position.value, 200);
-  }
-};
 </script>
 
 <style scoped>
@@ -1591,6 +1324,39 @@ ul {
   border-radius: 5em;
 }
 
+.screenshot-scroll-area {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.screenshot-track {
+  display: inline-flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.screenshot-item {
+  flex: 0 0 auto;
+  width: 300px;
+}
+
+.screenshot-scroll-area::-webkit-scrollbar {
+  height: 8px;
+}
+
+.screenshot-scroll-area::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
 /* for all social containers*/
 .socialContainer {
   width: 52px;
@@ -1618,279 +1384,62 @@ ul {
   background-color: #0072b1;
   transition-duration: 0.3s;
 }
-/* Whatsapp*/
-.containerFour:hover {
-  background-color: #f90101;
-  transition-duration: 0.3s;
-}
-
-.socialContainer:active {
-  transform: scale(0.9);
-  transition-duration: 0.3s;
-}
-
-.socialSvg {
-  width: 17px;
-}
-
-.socialSvg path {
-  fill: rgb(255, 255, 255);
-}
-
-.socialContainer:hover .socialSvg {
-  animation: slide-in-top 0.3s both;
-}
-
-@keyframes slide-in-top {
-  0% {
-    transform: translateY(-50px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-.bounceBtn {
-  animation: pulse 1s infinite;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -moz-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
-  60% {
-    -moz-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-  }
-}
-
-.jobDesc {
-  list-style-type: disc;
-}
-
-ul li::marker {
-  color: #0563bb; /* Set the bullet color to blue */
-}
-
-/* From Uiverse.io by mrhyddenn */
-.scrolldown {
-  --color: white;
-  --sizeX: 30px;
-  --sizeY: 50px;
-  position: fixed; /* Change to fixed to stick to the viewport */
-  bottom: 35px; /* Adjust distance from the bottom */
-  right: 20px; /* Adjust distance from the right */
-  width: var(--sizeX);
-  height: var(--sizeY);
-  border: calc(var(--sizeX) / 10) solid var(--color);
-  border-radius: 50px;
-  box-sizing: border-box;
-  cursor: pointer;
-}
-
-.scrolldown::before {
-  content: '';
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  width: 6px;
-  height: 6px;
-  margin-left: -3px;
-  background-color: var(--color);
-  border-radius: 100%;
-  animation: scrolldown-anim 2s infinite;
-  box-sizing: border-box;
-  box-shadow: 0px -5px 3px 1px #2a547066;
-}
-
-@keyframes scrolldown-anim {
-  0% {
-    opacity: 0;
-    height: 6px;
-  }
-
-  40% {
-    opacity: 1;
-    height: 10px;
-  }
-
-  80% {
-    transform: translate(0, 20px);
-    height: 10px;
-    opacity: 0;
-  }
-
-  100% {
-    height: 3px;
-    opacity: 0;
-  }
-}
-
-.chevrons {
-  padding: 6px 0 0 0;
-  margin-left: -3px;
-  margin-top: 48px;
-  width: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.chevrondown {
-  margin-top: -6px;
-  position: relative;
-  border: solid var(--color);
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  transform: rotate(45deg);
-}
-
-.chevrondown:nth-child(odd) {
-  animation: pulse54012 500ms ease infinite alternate;
-}
-
-.chevrondown:nth-child(even) {
-  animation: pulse54012 500ms ease infinite alternate 250ms;
-}
-
-@keyframes pulse54012 {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 0.5;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #about {
-    min-height: 100vh;
-    .container-about-desc {
-      justify-content: space-between;
-      p:nth-child(1) {
-        font-size: 30px;
-      }
-      p:nth-child(2) {
-        text-align: center;
-      }
-    }
-  }
-  .projectDialog {
-    min-width: 400px;
-  }
-}
-
-@media screen and (max-width: 1024px) and (min-width: 600px) {
-  #about {
-    min-height: 100vh;
-    .container-about-desc {
-      justify-content: space-between;
-      p:nth-child(1) {
-        font-size: 36px;
-      }
-      p:nth-child(2) {
-        text-align: center;
-        font-size: 20px;
-      }
-    }
-  }
-  .projectDialog {
-    min-width: 400px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  #about {
-    .container-about-image {
-      justify-content: center;
-    }
-
-    .container-about-desc {
-      padding-top: 5%;
-      p:nth-child(1) {
-        font-size: 36px;
-      }
-      p:nth-child(2) {
-        font-size: 20px;
-      }
-    }
-  }
-  .projectDialog {
-    min-width: 1200px;
-  }
-}
-
-.skills-section {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.skills-title {
-  color: #0563bb;
-  font-size: 28px;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-.underline {
-  position: relative;
-  width: 150px;
-  height: 3px;
-  margin: 10px auto;
-  background-color: #9e9e9e;
-
-  .progress {
-    width: 50%;
-    height: 3px;
-    background-color: #343399;
-    position: absolute;
-    left: 25%;
-  }
-}
-
-.projectCard {
-  filter: grayscale(0);
-  transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
-}
-
-.projectCard.hovered {
-  filter: grayscale(0);
-  transform: scale(1.05);
-}
-
-.projectCard.notHovered {
-  filter: grayscale(0);
-}
-
-.projectCard:not(.hovered):not(.notHovered) {
-  filter: grayscale(0);
-  transform: scale(1);
-}
 </style>
+/* Whatsapp*/ .containerFour:hover { background-color: #f90101;
+transition-duration: 0.3s; } .socialContainer:active { transform: scale(0.9);
+transition-duration: 0.3s; } .socialSvg { width: 17px; } .socialSvg path { fill:
+rgb(255, 255, 255); } .socialContainer:hover .socialSvg { animation:
+slide-in-top 0.3s both; } @keyframes slide-in-top { 0% { transform:
+translateY(-50px); opacity: 0; } 100% { transform: translateY(0); opacity: 1; }
+} .bounceBtn { animation: pulse 1s infinite; display: flex; justify-content:
+center; align-items: center; -moz-animation: bounce 2s infinite;
+-webkit-animation: bounce 2s infinite; animation: bounce 2s infinite; }
+@keyframes bounce { 0%, 20%, 50%, 80%, 100% { -moz-transform: translateY(0);
+-ms-transform: translateY(0); -webkit-transform: translateY(0); transform:
+translateY(0); } 40% { -moz-transform: translateY(-10px); -ms-transform:
+translateY(-10px); -webkit-transform: translateY(-10px); transform:
+translateY(-10px); } 60% { -moz-transform: translateY(-5px); -ms-transform:
+translateY(-5px); -webkit-transform: translateY(-5px); transform:
+translateY(-5px); } } .jobDesc { list-style-type: disc; } ul li::marker { color:
+#0563bb; /* Set the bullet color to blue */ } /* From Uiverse.io by mrhyddenn */
+.scrolldown { --color: white; --sizeX: 30px; --sizeY: 50px; position: fixed; /*
+Change to fixed to stick to the viewport */ bottom: 35px; /* Adjust distance
+from the bottom */ right: 20px; /* Adjust distance from the right */ width:
+var(--sizeX); height: var(--sizeY); border: calc(var(--sizeX) / 10) solid
+var(--color); border-radius: 50px; box-sizing: border-box; cursor: pointer; }
+.scrolldown::before { content: ''; position: absolute; bottom: 30px; left: 50%;
+width: 6px; height: 6px; margin-left: -3px; background-color: var(--color);
+border-radius: 100%; animation: scrolldown-anim 2s infinite; box-sizing:
+border-box; box-shadow: 0px -5px 3px 1px #2a547066; } @keyframes scrolldown-anim
+{ 0% { opacity: 0; height: 6px; } 40% { opacity: 1; height: 10px; } 80% {
+transform: translate(0, 20px); height: 10px; opacity: 0; } 100% { height: 3px;
+opacity: 0; } } .chevrons { padding: 6px 0 0 0; margin-left: -3px; margin-top:
+48px; width: 30px; display: flex; flex-direction: column; align-items: center; }
+.chevrondown { margin-top: -6px; position: relative; border: solid var(--color);
+border-width: 0 3px 3px 0; display: inline-block; width: 10px; height: 10px;
+transform: rotate(45deg); } .chevrondown:nth-child(odd) { animation: pulse54012
+500ms ease infinite alternate; } .chevrondown:nth-child(even) { animation:
+pulse54012 500ms ease infinite alternate 250ms; } @keyframes pulse54012 { from {
+opacity: 0; } to { opacity: 0.5; } } @media screen and (max-width: 600px) {
+#about { min-height: 100vh; .container-about-desc { justify-content:
+space-between; p:nth-child(1) { font-size: 30px; } p:nth-child(2) { text-align:
+center; } } } .projectDialog { min-width: 400px; } } @media screen and
+(max-width: 1024px) and (min-width: 600px) { #about { min-height: 100vh;
+.container-about-desc { justify-content: space-between; p:nth-child(1) {
+font-size: 36px; } p:nth-child(2) { text-align: center; font-size: 20px; } } }
+.projectDialog { min-width: 400px; } } @media screen and (min-width: 1024px) {
+#about { .container-about-image { justify-content: center; }
+.container-about-desc { padding-top: 5%; p:nth-child(1) { font-size: 36px; }
+p:nth-child(2) { font-size: 20px; } } } .projectDialog { min-width: 1200px; } }
+.skills-section { text-align: center; margin-top: 40px; } .skills-title { color:
+#0563bb; font-size: 28px; letter-spacing: 1px; font-weight: bold; } .underline {
+position: relative; width: 150px; height: 3px; margin: 10px auto;
+background-color: #9e9e9e; .progress { width: 50%; height: 3px;
+background-color: #343399; position: absolute; left: 25%; } } .projectCard {
+filter: grayscale(0); transition: opacity 0.25s ease-in-out, transform 0.25s
+ease-in-out; display: flex; flex-direction: column; height: 100%; }
+.projectCard.hovered { filter: grayscale(0); transform: scale(1.05); }
+.projectCard.notHovered { filter: grayscale(0); }
+.projectCard:not(.hovered):not(.notHovered) { filter: grayscale(0); transform:
+scale(1); } .full-height-card > img { width: 100%; height: 260px; object-fit:
+cover; } .full-height-card .q-card__section { flex: 1; }

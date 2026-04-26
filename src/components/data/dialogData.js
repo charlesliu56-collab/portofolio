@@ -2,11 +2,22 @@ import mobile from 'src/assets/mobile-apps.gif';
 import web from 'src/assets/web-developer.gif';
 //posters
 import cpic from 'src/assets/posters/cpic.jpg';
-import bctech from 'src/assets/posters/bctech.jpg';
-import cp from 'src/assets/posters/customerpersona.png';
 import ecomdiv from 'src/assets/posters/e-comdiv.jpg';
 import immobile from 'src/assets/posters/immobile.jpg';
 import mypigfarm from 'src/assets/posters/mypigfarm.jpg';
+import srm1 from 'src/assets/srm/1.png';
+import srm2 from 'src/assets/srm/2.png';
+import srm3 from 'src/assets/srm/3.png';
+import srm4 from 'src/assets/srm/4.png';
+import srm5 from 'src/assets/srm/5.png';
+import srm6 from 'src/assets/srm/6.png';
+import weborderfeedmill1 from 'src/assets/weborderfeedmill/1.png';
+import weborderfeedmill2 from 'src/assets/weborderfeedmill/2.png';
+import weborderfeedmill3 from 'src/assets/weborderfeedmill/3.png';
+import weborderfeedmill4 from 'src/assets/weborderfeedmill/4.png';
+import weborderfeedmill5 from 'src/assets/weborderfeedmill/5.png';
+import weborderfeedmill6 from 'src/assets/weborderfeedmill/6.png';
+import weborderfeedmill7 from 'src/assets/weborderfeedmill/7.png';
 //icons
 import figma from 'src/assets/Figma-logo.png';
 import html from 'src/assets/HTML5-Badge.png';
@@ -18,6 +29,10 @@ import quasar from 'src/assets/quasar.png';
 import msoffice from 'src/assets/MSOffice-logo.png';
 import canva from 'src/assets/Canva-icon.png';
 import git from 'src/assets/Git-Icon.png';
+import nestjs from 'src/assets/nestjs.png';
+import n8n from 'src/assets/n8n.png';
+import kafka from 'src/assets/kafka.png';
+import redis from 'src/assets/redis.png';
 //immobile
 import immobile1 from 'src/assets/immobile/1.png';
 import immobile2 from 'src/assets/immobile/2.png';
@@ -81,34 +96,6 @@ import ecomdiv10 from 'src/assets/ecomdiv/10.png';
 import ecomdiv11 from 'src/assets/ecomdiv/11.png';
 import ecomdiv12 from 'src/assets/ecomdiv/12.png';
 import ecomdiv13 from 'src/assets/ecomdiv/13.png';
-//cpic
-import cp1 from 'src/assets/cp/1.png';
-import cp2 from 'src/assets/cp/2.png';
-import cp3 from 'src/assets/cp/3.png';
-import cp4 from 'src/assets/cp/4.png';
-import cp5 from 'src/assets/cp/5.png';
-import cp6 from 'src/assets/cp/6.png';
-import cp7 from 'src/assets/cp/7.png';
-import cp8 from 'src/assets/cp/8.png';
-import cp9 from 'src/assets/cp/9.png';
-import cp10 from 'src/assets/cp/10.png';
-import cp11 from 'src/assets/cp/11.png';
-import cp12 from 'src/assets/cp/12.png';
-//bctech
-import bctech1 from 'src/assets/bctech/1.png';
-import bctech2 from 'src/assets/bctech/2.png';
-import bctech3 from 'src/assets/bctech/3.png';
-import bctech4 from 'src/assets/bctech/4.png';
-import bctech5 from 'src/assets/bctech/5.png';
-import bctech6 from 'src/assets/bctech/6.png';
-import bctech7 from 'src/assets/bctech/7.png';
-import bctech8 from 'src/assets/bctech/8.png';
-import bctech9 from 'src/assets/bctech/9.png';
-import bctech10 from 'src/assets/bctech/10.png';
-import bctech11 from 'src/assets/bctech/11.png';
-import bctech12 from 'src/assets/bctech/12.png';
-import bctech13 from 'src/assets/bctech/13.png';
-import bctech14 from 'src/assets/bctech/14.png';
 
 export default [
   {
@@ -576,14 +563,14 @@ export default [
     color: '#1976d2',
     background: '#d1e3f6',
     title: 'E-Comdiv',
-    role: 'UX Engineer',
+    role: 'Full Stack Developer',
     displayImage: ecomdiv,
     company: 'PT Charoen Pokphand Indonesia Tbk',
     platform: 'Web Application',
     platformIcon: web,
     dialogImage: ecomdiv,
     description:
-      'E-Comdiv is a web application that simplifies procurement by enabling registered users to order goods and services online. It connects users with preferred suppliers through a centralized system, automating tasks like purchase orders, invoicing, and supplier management to save time and reduce costs',
+      'E-Comdiv is a full stack web application for procurement and supplier management. Built with NestJS, Quasar, Redis, Kafka, and n8n, it enables users to create purchase orders, manage invoices, and coordinate supplier workflows through a centralized system.',
     spline:
       'https://my.spline.design/bctechcopy-b6f908cc57317a2e71b249c7e3feffb0/',
     featuresList: [
@@ -614,7 +601,7 @@ export default [
       },
       {
         feature:
-          'Master Data: Contains a list of submenus master data where user can mantain important data.',
+          'Master Data: Contains a list of submenus master data where user can maintan important data.',
       },
     ],
     toolsList: [
@@ -646,6 +633,26 @@ export default [
       {
         tool: 'Quasar',
         icon: quasar,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'NestJS',
+        icon: nestjs,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'Redis',
+        icon: redis,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'Kafka',
+        icon: kafka,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'n8n',
+        icon: n8n,
         background: '#d1e3f6',
       },
       {
@@ -741,55 +748,43 @@ export default [
   },
   {
     id: 5,
-    color: '#343399',
-    background: '#d6d6ea',
-    title: 'Customer Persona',
-    role: 'UX Engineer',
-    displayImage: cp,
+    color: '#2e7d32',
+    background: '#dcefd8',
+    title: 'Supplier Relationship Management',
+    role: 'Full Stack Developer',
+    displayImage: srm1,
     company: 'PT Charoen Pokphand Indonesia Tbk',
     platform: 'Web Application',
     platformIcon: web,
-    dialogImage: cp,
+    dialogImage: srm2,
     description:
-      'Customer Persona is a web application that helps users to find all information related to customers in PT. Charoen Pokphand Indonesia Tbk company. With this web app, it can improve services for searching all information related to customer.',
+      'Designed and built a Supplier Relationship Management platform to streamline procurement, supplier documentation, and financial reconciliation between suppliers, Comdiv warehouses, and buyers.',
     spline:
       'https://my.spline.design/macbookprocopy-e7ab0350d459104c304deb7e3ba629a8/',
     featuresList: [
       {
         feature:
-          'Dashboard: The first page that the user access after login and contains a live analytical dashboard from the Top 10 Customer Data.​',
+          'Purchase Order Management: Captures supplier orders, approvals, and delivery instructions in a single digital workflow.',
       },
       {
         feature:
-          'Area Mapping: Contains a table that mapped customer code based on area line business and system.',
+          'Request Time Delivery (RTD): Enables supplier scheduling for warehouse logistics and improves inbound shipment planning.',
       },
       {
         feature:
-          'Customer Unmapping​: Contains a list all of customers who do not yet have a national code.',
+          'Goods In Transit (GIT): Tracks inventory movement from supplier origin to the central hub with real-time status updates.',
       },
       {
         feature:
-          'Grouped Customer Unmappings:​ contains a list all of customers that already belong to a national code and shown by area.',
+          'Automated KOLI and Shipping Manifests: Generates compliant KOLI packing labels and Surat Jalan for trucking operations.',
       },
       {
         feature:
-          'Customer Mapping​: Contains a list all of customers that already belong to a national code, and shown for multi area.',
+          'Goods Received (BPB/GR): Confirms delivery and validates receipts before invoices are processed.',
       },
       {
         feature:
-          'Top 10 Customer: Contains a list all of customers (customer mapping and customer unmaping) that is sort by the value of sales.',
-      },
-      {
-        feature:
-          'Summary Aging​: showing the amount of receivables (payables) that must be paid by customers on a certain date.',
-      },
-      {
-        feature:
-          'Report TR/Sales​: showing the amount of TR or Sales that performed by group customer (for each national code), for analyze the best of the best.',
-      },
-      {
-        feature:
-          'Total Sales​: Contains a list of total sales quantity and amount for each month.',
+          'AP/AR Integration: Automates OA invoices for shipping costs and AP invoices for supplier commodity payments.',
       },
     ],
     toolsList: [
@@ -821,6 +816,26 @@ export default [
       {
         tool: 'Quasar',
         icon: quasar,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'NestJS',
+        icon: nestjs,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'Redis',
+        icon: redis,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'Kafka',
+        icon: kafka,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'n8n',
+        icon: n8n,
         background: '#d1e3f6',
       },
       {
@@ -866,34 +881,28 @@ export default [
       },
     ],
     screenshots: [
-      { image: cp1 },
-      { image: cp2 },
-      { image: cp3 },
-      { image: cp4 },
-      { image: cp5 },
-      { image: cp6 },
-      { image: cp7 },
-      { image: cp8 },
-      { image: cp9 },
-      { image: cp10 },
-      { image: cp11 },
-      { image: cp12 },
+      { image: srm1 },
+      { image: srm2 },
+      { image: srm3 },
+      { image: srm4 },
+      { image: srm5 },
+      { image: srm6 },
     ],
     informationsList: [
       {
         icon: 'calendar_month',
         title: 'Release Date',
-        description: 'July 2023',
+        description: 'October 2024',
       },
       {
         icon: 'account_circle',
         title: 'Number of Users',
-        description: '600',
+        description: '220 Users',
       },
       {
         icon: 'category',
         title: 'Category',
-        description: 'Searching Platform',
+        description: 'Supplier Relationship Management',
       },
       {
         icon: 'inventory_2',
@@ -903,61 +912,49 @@ export default [
       {
         icon: 'language',
         title: 'Language',
-        description: 'Engish',
+        description: 'English & Bahasa Indonesia',
       },
       {
         icon: 'devices',
         title: 'Available On',
-        description: 'Web (https://customer-persona.cp.co.id/)',
+        description: 'Web Application',
       },
     ],
   },
   {
     id: 6,
-    color: '#4caf50',
-    background: '#dbefdc',
-    title: 'BC Tech',
-    role: 'Front End Developer',
-    displayImage: bctech,
-    company: 'PT BISI International Tbk',
+    color: '#1e88e5',
+    background: '#d9e8fb',
+    title: 'Feedmill Web Order System',
+    role: 'Full Stack Developer',
+    displayImage: weborderfeedmill1,
+    company: 'PT Charoen Pokphand Indonesia Tbk',
     platform: 'Web Application',
     platformIcon: web,
-    dialogImage: bctech,
+    dialogImage: weborderfeedmill2,
     description:
-      'BC Tech is a streamlined content management system for an authorized DJI partner in Indonesia, enabling users to easily update website content related to drone sales. It supports efficient management of product details, promotions, and customer interactions, helping the business maintain a professional online presence and optimize its operations.',
+      'Developed a comprehensive end-to-end ordering ecosystem to digitalize and automate poultry feed procurement, replacing manual paper-based workflows with a synchronized system.',
     spline: 'https://my.spline.design/bctech-82ccc6217aa804768dee045ce83ece76/',
     featuresList: [
       {
         feature:
-          'Master Carousel: User can add, update, and delete content shown in the carousel landing page.​',
+          'Order Lifecycle: Manages requests from customer order creation through Sales Order and Delivery Order generation.',
       },
       {
         feature:
-          'Master Services: User can add, update, and delete content shown in the service landing page.',
+          'RBAC Security: Supports Customers, Sales, and Admins with role-based permissions and approval gates.',
       },
       {
         feature:
-          'Master Products: User can add, update, and delete images shown in the product landing page.',
+          'SAP Integration: Connects to SAP Web Services for stock updates and centralized accounting.',
       },
       {
         feature:
-          'Master Articles: User can add, update, and delete content shown in the article landing page.',
+          'Logistics Tracking: Assigns expedition partners and monitors truck GPS movement in real-time.',
       },
       {
         feature:
-          'Master Maps: User can add, update, and delete location shown in the map landing page.',
-      },
-      {
-        feature:
-          'Master Annoucements: User can add, update, and delete images shown in the announcement landing page.',
-      },
-      {
-        feature:
-          'Master Content: User can choose the selected content shown in the landing page.',
-      },
-      {
-        feature:
-          'Master Users: User can add other user to grant permission to access the masters page.',
+          'Weight & Delivery Automation: Automates loading checks and delivery tracking for complete order-to-delivery visibility.',
       },
     ],
     toolsList: [
@@ -989,6 +986,26 @@ export default [
       {
         tool: 'Quasar',
         icon: quasar,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'NestJS',
+        icon: nestjs,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'Redis',
+        icon: redis,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'Kafka',
+        icon: kafka,
+        background: '#d1e3f6',
+      },
+      {
+        tool: 'n8n',
+        icon: n8n,
         background: '#d1e3f6',
       },
       {
@@ -1037,51 +1054,44 @@ export default [
       },
     ],
     screenshots: [
-      { image: bctech1 },
-      { image: bctech2 },
-      { image: bctech3 },
-      { image: bctech4 },
-      { image: bctech5 },
-      { image: bctech6 },
-      { image: bctech7 },
-      { image: bctech8 },
-      { image: bctech9 },
-      { image: bctech10 },
-      { image: bctech11 },
-      { image: bctech12 },
-      { image: bctech13 },
-      { image: bctech14 },
+      { image: weborderfeedmill1 },
+      { image: weborderfeedmill2 },
+      { image: weborderfeedmill3 },
+      { image: weborderfeedmill4 },
+      { image: weborderfeedmill5 },
+      { image: weborderfeedmill6 },
+      { image: weborderfeedmill7 },
     ],
     informationsList: [
       {
         icon: 'calendar_month',
         title: 'Release Date',
-        description: 'March 2025',
+        description: 'March 2024',
       },
       {
         icon: 'account_circle',
         title: 'Number of Users',
-        description: '4 Admin',
+        description: '150 Users',
       },
       {
         icon: 'category',
         title: 'Category',
-        description: 'Content Management System',
+        description: 'Order Management',
       },
       {
         icon: 'inventory_2',
         title: 'Published By',
-        description: 'PT BISI International Tbk',
+        description: 'PT Charoen Pokphand Indonesia Tbk',
       },
       {
         icon: 'language',
         title: 'Language',
-        description: 'Engish',
+        description: 'English & Bahasa Indonesia',
       },
       {
         icon: 'devices',
         title: 'Available On',
-        description: 'Web (https://bctech.co.id/)',
+        description: 'Web Application',
       },
     ],
   },
