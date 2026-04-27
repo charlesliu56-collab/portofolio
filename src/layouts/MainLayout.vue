@@ -383,61 +383,60 @@
                 <q-timeline-entry
                   title="PT Charoen Pokphand Indonesia Tbk"
                   :subtitle="timelineSubtitle2022"
-                >
-                  <q-timeline color="primary">
-                    <q-timeline-entry
-                      title="Full Time Web Developer"
-                      :subtitle="timelineSubtitle"
-                      data-aos="fade-up"
-                    >
-                      <div class="text-subtitle1">
-                        <ul class="jobDesc">
-                          <li class="q-pb-sm">
-                            Develop and maintain internal web applications using
-                            Vue.js (Quasar) and Laravel.
-                          </li>
-                          <li class="q-pb-sm">
-                            Optimize PostgreSQL database performance for
-                            high-traffic systems.
-                          </li>
-                          <li class="q-pb-sm">
-                            Implement real-time features using Firebase and
-                            Apache Kafka.
-                          </li>
-                          <li class="q-pb-sm">
-                            Collaborate with cross-functional teams using Agile
-                            methodologies.
-                          </li>
-                        </ul>
-                      </div>
-                    </q-timeline-entry>
+                  data-aos="fade-up"
+                />
 
-                    <q-timeline-entry
-                      title="Internship Web Developer"
-                      subtitle="Feb 2024 - Feb 2025"
-                      data-aos="fade-up"
-                    >
-                      <div
-                        :class="
-                          $q.screen.gt.xs ? 'text-subtitle1' : 'text-subtitle2'
-                        "
-                      >
-                        <ul class="jobDesc">
-                          <li class="q-pb-sm">
-                            Assisted in building role-based access systems for
-                            internal tools.
-                          </li>
-                          <li class="q-pb-sm">
-                            Developed responsive UIs with Quasar Framework.
-                          </li>
-                          <li class="q-pb-sm">
-                            Participated in code reviews and bug fixes for
-                            production systems.
-                          </li>
-                        </ul>
-                      </div>
-                    </q-timeline-entry>
-                  </q-timeline>
+                <q-timeline-entry
+                  title="Full Time Web Developer"
+                  :subtitle="timelineSubtitle"
+                  data-aos="fade-up"
+                >
+                  <div class="text-subtitle1">
+                    <ul class="jobDesc">
+                      <li class="q-pb-sm">
+                        Develop and maintain internal web applications using
+                        Vue.js (Quasar) and Laravel.
+                      </li>
+                      <li class="q-pb-sm">
+                        Optimize PostgreSQL database performance for
+                        high-traffic systems.
+                      </li>
+                      <li class="q-pb-sm">
+                        Implement real-time features using Firebase and Apache
+                        Kafka.
+                      </li>
+                      <li class="q-pb-sm">
+                        Collaborate with cross-functional teams using Agile
+                        methodologies.
+                      </li>
+                    </ul>
+                  </div>
+                </q-timeline-entry>
+
+                <q-timeline-entry
+                  title="Internship Web Developer"
+                  subtitle="Feb 2024 - Feb 2025"
+                  data-aos="fade-up"
+                >
+                  <div
+                    :class="
+                      $q.screen.gt.xs ? 'text-subtitle1' : 'text-subtitle2'
+                    "
+                  >
+                    <ul class="jobDesc">
+                      <li class="q-pb-sm">
+                        Assisted in building role-based access systems for
+                        internal tools.
+                      </li>
+                      <li class="q-pb-sm">
+                        Developed responsive UIs with Quasar Framework.
+                      </li>
+                      <li class="q-pb-sm">
+                        Participated in code reviews and bug fixes for
+                        production systems.
+                      </li>
+                    </ul>
+                  </div>
                 </q-timeline-entry>
               </q-timeline>
             </div>
@@ -1130,8 +1129,8 @@ const timelineSubtitle: Ref<string> = computed(() => {
   return `March 2023 - Present (${duration.value})`;
 });
 
-// Define the start date for the second entry
-const startDate2022: Date = new Date('2022-08-01');
+// Define the start date for the second entry (company level)
+const startDate2022: Date = new Date('2024-02-01');
 
 // Create a computed property to calculate the duration for the second entry
 const duration2022: Ref<string> = computed(() => {
@@ -1160,7 +1159,7 @@ const duration2022: Ref<string> = computed(() => {
 
 // Create a computed property for the full subtitle string for the second entry
 const timelineSubtitle2022: Ref<string> = computed(() => {
-  return `August 2022 - Present (${duration2022.value})`;
+  return `February 2024 - Present (${duration2022.value})`;
 });
 
 //data
@@ -1571,6 +1570,25 @@ ul {
   transition: box-shadow 0.3s ease; /* Transition for box-shadow */
 }
 
+/* Make the top hero card 70% width of its parent on larger screens */
+.gradient-background .my-card {
+  width: 60vw; /* 70% of the viewport width */
+  max-width: none;
+  margin: 0 auto; /* center horizontally */
+}
+
+@media screen and (max-width: 1024px) {
+  .gradient-background .my-card {
+    width: 85vw; /* 85% of viewport on medium screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gradient-background .my-card {
+    width: 95vw; /* nearly full width on small screens */
+  }
+}
+
 .my-card:hover {
   box-shadow: 0 6px 40px rgba(0, 0, 0, 0.3); /* Enhanced shadow for zoom effect */
 }
@@ -1888,4 +1906,7 @@ ul li::marker {
   filter: grayscale(0);
   transform: scale(1);
 }
+
+/* Two-column timeline adjustments */
+/* removed two-column timeline adjustments (using single timeline now) */
 </style>
