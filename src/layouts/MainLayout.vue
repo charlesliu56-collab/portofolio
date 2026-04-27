@@ -688,19 +688,30 @@
               style="height: 80vh"
               visible
               :thumb-style="thumbStyle"
-              ><div class="row q-px-md">
-                <div :class="$q.screen.gt.xs ? 'col-8' : 'col-12'">
+              ><div class="row q-px-md items-stretch">
+                <div
+                  :class="$q.screen.gt.xs ? 'col-8' : 'col-12'"
+                  style="display: flex"
+                >
                   <div>
                     <q-card
                       class="my-card no-shadow"
-                      style="border-radius: 16px"
+                      style="
+                        border-radius: 16px;
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                      "
                     >
-                      <q-card-section class="q-pa-none">
+                      <q-card-section class="q-pa-none" style="flex: 1">
                         <q-img
                           :src="datas[hoveredIndex].displayImage"
-                          style="border-radius: 16px"
-                          :ratio="16 / 9"
-                          fill
+                          style="
+                            border-radius: 16px;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                          "
                         />
                       </q-card-section>
                     </q-card>
@@ -708,13 +719,30 @@
                 </div>
                 <div
                   :class="$q.screen.gt.xs ? 'col-4 q-pl-sm' : 'col-12 q-pt-md'"
+                  style="display: flex"
                 >
-                  <div>
+                  <div
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      gap: 12px;
+                      width: 100%;
+                      height: 100%;
+                    "
+                  >
                     <q-card
-                      class="bg-grey-8 text-white text-weight-medium no-shadow q-mb-lg q-py-md"
-                      style="border-radius: 16px; background-color: #94cf96"
+                      class="bg-grey-8 text-white text-weight-medium no-shadow"
+                      style="
+                        border-radius: 16px;
+                        background-color: #94cf96;
+                        flex: 1;
+                        display: flex;
+                      "
                     >
-                      <q-card-section class="row justify-between items-center">
+                      <q-card-section
+                        class="row justify-between items-center"
+                        style="flex: 1"
+                      >
                         <div class="column items-start">
                           <q-chip
                             text-color="white"
@@ -731,17 +759,30 @@
                             {{ datas[hoveredIndex].role }}
                           </div>
                         </div>
-                        <q-avatar rounded style="height: 100%">
-                          <img src="../assets/role.png" />
+                        <q-avatar rounded style="width: 72px; height: 72px">
+                          <q-img
+                            :src="roleIcon"
+                            style="
+                              width: 100%;
+                              height: 100%;
+                              object-fit: contain;
+                            "
+                          />
                         </q-avatar>
                       </q-card-section>
                     </q-card>
                     <q-card
-                      class="bg-grey-8 text-white text-weight-medium no-shadow q-py-md"
-                      style="border-radius: 16px; background-color: #94cf96"
+                      class="bg-grey-8 text-white text-weight-medium no-shadow"
+                      style="
+                        border-radius: 16px;
+                        background-color: #94cf96;
+                        flex: 1;
+                        display: flex;
+                      "
                     >
                       <q-card-section
                         class="row justify-between items-center q-py-md"
+                        style="flex: 1"
                       >
                         <div class="column items-start">
                           <q-chip
@@ -759,8 +800,15 @@
                             {{ datas[hoveredIndex].platform }}
                           </div>
                         </div>
-                        <q-avatar rounded style="height: 100%">
-                          <img :src="datas[hoveredIndex].platformIcon" />
+                        <q-avatar rounded style="width: 72px; height: 72px">
+                          <q-img
+                            :src="datas[hoveredIndex].platformIcon"
+                            style="
+                              width: 100%;
+                              height: 100%;
+                              object-fit: contain;
+                            "
+                          />
                         </q-avatar>
                       </q-card-section>
                     </q-card>
@@ -1011,14 +1059,7 @@
                         />
                         <div class="">
                           <q-scroll-area
-                            :style="{
-                              height:
-                                hoveredIndex <= 2
-                                  ? '650px'
-                                  : hoveredIndex <= 5
-                                  ? '200px'
-                                  : 'auto',
-                            }"
+                            style="height: 200px"
                             :thumb-style="thumbStyle"
                             visible
                             ref="scrollAreaRef"
@@ -1031,7 +1072,12 @@
                               >
                                 <q-img
                                   :src="list.image"
-                                  style="border-radius: 16px"
+                                  style="
+                                    border-radius: 16px;
+                                    width: 100%;
+                                    height: 200px;
+                                    object-fit: cover;
+                                  "
                                 />
                               </div></div
                           ></q-scroll-area>
@@ -1241,6 +1287,7 @@ import git from 'src/assets/Git-Icon.png';
 import locationIcon from 'src/assets/location.png';
 import educationIcon from 'src/assets/mortarboard.png';
 import gpaIcon from 'src/assets/gpa.png';
+import roleIcon from 'src/assets/role.png';
 import web from 'src/assets/web-developer.gif';
 import comdiv from 'src/assets/posters/e-comdiv.jpg';
 import srm1 from 'src/assets/srm/1.png';
