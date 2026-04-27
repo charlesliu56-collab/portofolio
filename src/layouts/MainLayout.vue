@@ -109,13 +109,13 @@
                 class="text-white text-weight-bold text-center"
                 v-if="$q.screen.gt.xs"
               >
-                Joshua Christian Limerson
+                Charles Liu
               </h2>
               <h3
                 class="text-white text-weight-bold text-center"
                 v-if="$q.screen.xs"
               >
-                Joshua Christian Limerson
+                Charles Liu
               </h3>
               <div class="row justify-center">
                 <p class="text-h5">
@@ -131,7 +131,7 @@
               <div class="socialList">
                 <a
                   class="socialContainer containerOne"
-                  href="https://www.instagram.com/cl_joshua/"
+                  href="#"
                   target="_blank"
                 >
                   <svg viewBox="0 0 16 16" class="socialSvg instagramSvg">
@@ -143,7 +143,7 @@
 
                 <a
                   class="socialContainer containerTwo"
-                  href="https://github.com/JoshuaChristianLimerson"
+                  href="https://github.com/charlesliu56-collab"
                   target="_blank"
                 >
                   <svg viewBox="0 0 16 16" class="socialSvg twitterSvg">
@@ -155,7 +155,7 @@
 
                 <a
                   class="socialContainer containerThree"
-                  href="https://www.linkedin.com/in/joshua-christian-limerson-815072224/"
+                  href="#"
                   target="_blank"
                 >
                   <svg viewBox="0 0 448 512" class="socialSvg linkdinSvg">
@@ -167,7 +167,7 @@
 
                 <a
                   class="socialContainer containerFour"
-                  href="mailto:jcljoshualim@gmail.com?subject=Email%20to%20Joshua%20Christian%20Limerson&body=Hello%20there!%20Joshua%20Christian%20Limerson,"
+                  href="mailto:charles.liu56@gmail.com?subject=Email%20to%20Charles%20Liu&body=Hello%20there%20Charles%20Liu,"
                   target="_blank"
                 >
                   <svg viewBox="0 0 16 16" class="socialSvg emailSvg">
@@ -301,17 +301,17 @@
               class="text-primary text-weight-medium row"
               :class="$q.screen.gt.sm ? '' : 'justify-center text-center'"
             >
-              I am Joshua Christian Limerson,
+              I am Charles Liu,
             </p>
             <p
               class="text-blue-grey text-subtitle1 text-justify"
               :class="$q.screen.gt.sm ? 'q-pr-xl' : 'q-px-md'"
             >
-              I am a graduate Computer Science (Global Class) student on BINUS
-              UNIVERSITY. My passion on Computer Science subject itself lies on
-              UI/UX Designer, Front-End Development, and animations. I always
-              wanted to learn more about how can I improve my passion and ideas
-              and to see new opportunities to expand my skills in every aspect.
+              I am a full-stack developer specializing in Vue.js and Laravel
+              with expertise in building scalable web solutions. Experienced in
+              event-driven architecture (Kafka), real-time systems (Firebase),
+              and database optimization (PostgreSQL). Collaborative team player
+              focused on delivering efficient and maintainable code.
             </p>
           </div>
           <div style="height: 200px" v-if="$q.screen.gt.sm"></div>
@@ -386,45 +386,35 @@
                 >
                   <q-timeline color="primary">
                     <q-timeline-entry
-                      title="Ux Engineer"
+                      title="Full Time Web Developer"
                       :subtitle="timelineSubtitle"
                       data-aos="fade-up"
                     >
                       <div class="text-subtitle1">
                         <ul class="jobDesc">
                           <li class="q-pb-sm">
-                            Designed and prototyped user interfaces and
-                            experiences (UI/UX) using Figma to enhance customer
-                            engagement and support the implementation of new
-                            applications.
+                            Develop and maintain internal web applications using
+                            Vue.js (Quasar) and Laravel.
                           </li>
                           <li class="q-pb-sm">
-                            Partner with developers to ensure designs are
-                            implemented as intended while maintaining
-                            functionality and performance.
+                            Optimize PostgreSQL database performance for
+                            high-traffic systems.
                           </li>
                           <li class="q-pb-sm">
-                            Developed and maintained web applications front-end
-                            by coding in HTML, CSS, JavaScript, Typescript, and
-                            Vue.js. Utilizing Quasar library for components and
-                            user-friendly designs.
+                            Implement real-time features using Firebase and
+                            Apache Kafka.
                           </li>
                           <li class="q-pb-sm">
-                            Develop interactive prototypes to demonstrate user
-                            flows and functionality.
-                          </li>
-                          <li>
-                            Created instructional content, including user
-                            manuals, presentations, and video tutorials, to
-                            support users in navigating and utilizing company
-                            applications effectively.
+                            Collaborate with cross-functional teams using Agile
+                            methodologies.
                           </li>
                         </ul>
                       </div>
                     </q-timeline-entry>
+
                     <q-timeline-entry
-                      title="Web Developer Intern"
-                      subtitle="August 2022 - February 2023 (7 Months)"
+                      title="Internship Web Developer"
+                      subtitle="Feb 2024 - Feb 2025"
                       data-aos="fade-up"
                     >
                       <div
@@ -434,34 +424,21 @@
                       >
                         <ul class="jobDesc">
                           <li class="q-pb-sm">
-                            Designed and prototyped user interfaces and
-                            experiences (UI/UX) using Figma to enhance customer
-                            engagement and support the implementation of new
-                            features.
+                            Assisted in building role-based access systems for
+                            internal tools.
                           </li>
                           <li class="q-pb-sm">
-                            Developed and maintained web applications by coding
-                            in HTML, CSS, JavaScript, Vue.js, and PHP (Laravel),
-                            utilizing Vuetify library for responsive and
-                            user-friendly designs.
+                            Developed responsive UIs with Quasar Framework.
                           </li>
                           <li class="q-pb-sm">
-                            Conducted user research, usability testing, and
-                            analysis to continuously improve website
-                            functionality and user satisfaction.
-                          </li>
-                          <li>
-                            Created instructional content, including user
-                            manuals and video tutorials, to support users in
-                            navigating and utilizing company applications
-                            effectively.
+                            Participated in code reviews and bug fixes for
+                            production systems.
                           </li>
                         </ul>
                       </div>
                     </q-timeline-entry>
                   </q-timeline>
                 </q-timeline-entry>
-                <q-timeline-entry></q-timeline-entry>
               </q-timeline>
             </div>
 
@@ -471,79 +448,79 @@
               </div>
               <q-timeline color="primary">
                 <q-timeline-entry
-                  title="Xi'an Jiaotong-Liverpool University"
-                  subtitle="February 2022 - June 2022"
+                  title="Binus University"
+                  subtitle="September 2021 - July 2025"
                   data-aos="fade-up"
                 >
                   <div class="text-subtitle1">
                     <q-icon style="margin-right: 5px">
-                      <q-img :src="educationIcon" /> </q-icon
-                    >Certified Study Abroad, Computer Science <br /><q-icon
-                      style="margin-right: 5px"
-                    >
-                      <q-img :src="locationIcon" /> </q-icon
-                    >Suzhou, China
+                      <q-img :src="educationIcon" />
+                    </q-icon>
+                    Bachelor's Degree, Computer Science
+                    <br />
+                    <q-icon style="margin-right: 5px">
+                      <q-img :src="locationIcon" />
+                    </q-icon>
+                    Jakarta, Indonesia
+                    <br />
+                    <q-icon style="margin-right: 5px">
+                      <q-img :src="gpaIcon" />
+                    </q-icon>
+                    GPA: 3.74
                   </div>
                 </q-timeline-entry>
 
                 <q-timeline-entry
-                  title="Binus University"
-                  subtitle="September 2019 - July 2023"
-                  data-aos="fade-up"
-                >
-                  <div class="text-subtitle1">
-                    <q-icon style="margin-right: 5px">
-                      <q-img :src="educationIcon" /> </q-icon
-                    >Bachelor's Degree, Computer Science
-                    <br />
-                    <q-icon style="margin-right: 5px">
-                      <q-img :src="locationIcon" /> </q-icon
-                    >Jakarta, Indonesia <br /><q-icon style="margin-right: 5px">
-                      <q-img :src="gpaIcon" />
-                    </q-icon>
-                    GPA: 3.61
-                  </div>
-                </q-timeline-entry>
-                <q-timeline-entry
-                  title="SMA Mondial Batam"
+                  title="SMA Chandra Kusuma"
                   subtitle="2016 - 2019"
                   data-aos="fade-up"
                 >
                   <div class="text-subtitle1">
                     <q-icon style="margin-right: 5px">
-                      <q-img :src="educationIcon" /> </q-icon
-                    >Senior High School, Science Degree <br /><q-icon
-                      style="margin-right: 5px"
-                    >
-                      <q-img :src="locationIcon" /> </q-icon
-                    >Batam, Indonesia
+                      <q-img :src="educationIcon" />
+                    </q-icon>
+                    Senior High School
+                    <br />
+                    <q-icon style="margin-right: 5px">
+                      <q-img :src="locationIcon" />
+                    </q-icon>
+                    Jakarta, Indonesia
                   </div>
                 </q-timeline-entry>
+
                 <q-timeline-entry
-                  title="SMP Mondial Batam"
+                  title="SMP Chandra Kusuma"
                   subtitle="2013 - 2016"
                   data-aos="fade-up"
                 >
                   <div class="text-subtitle1">
                     <q-icon style="margin-right: 5px">
-                      <q-img :src="educationIcon" /> </q-icon
-                    >Junior High School <br /><q-icon style="margin-right: 5px">
-                      <q-img :src="locationIcon" /> </q-icon
-                    >Batam, Indonesia
+                      <q-img :src="educationIcon" />
+                    </q-icon>
+                    Junior High School
+                    <br />
+                    <q-icon style="margin-right: 5px">
+                      <q-img :src="locationIcon" />
+                    </q-icon>
+                    Jakarta, Indonesia
                   </div>
                 </q-timeline-entry>
+
                 <q-timeline-entry
-                  title="SD Mondial Batam"
+                  title="SD Chandra Kusuma"
                   subtitle="2007 - 2013"
                   data-aos="fade-up"
                 >
                   <div class="text-subtitle1">
                     <q-icon style="margin-right: 5px">
-                      <q-img :src="educationIcon" /> </q-icon
-                    >Primary School <br />
+                      <q-img :src="educationIcon" />
+                    </q-icon>
+                    Primary School
+                    <br />
                     <q-icon style="margin-right: 5px">
-                      <q-img :src="locationIcon" /> </q-icon
-                    >Batam, Indonesia
+                      <q-img :src="locationIcon" />
+                    </q-icon>
+                    Jakarta, Indonesia
                   </div>
                 </q-timeline-entry>
               </q-timeline>
@@ -1453,11 +1430,11 @@ interface InfoItem {
 
 // Create a ref with the array of InfoItem objects
 const infoList = ref<InfoItem[]>([
-  { label: 'Birth Date', value: 'Singapore, 25 April 2001' },
-  { label: 'Phone', value: '+(62) 895 330 690 960' },
-  { label: 'City', value: 'Batam / Jakarta' },
+  { label: 'Birth Date', value: 'Jakarta, 11 April 2003' },
+  { label: 'Phone', value: '+62 877 8515 0006' },
+  { label: 'City', value: 'Jakarta' },
   { label: 'Age', value: '23 Years Old' },
-  { label: 'Email', value: 'jcljoshualim@gmail.com' },
+  { label: 'Email', value: 'charles.liu56@gmail.com' },
   { label: 'Languages', value: 'English, Bahasa Indonesia' },
 ]);
 
