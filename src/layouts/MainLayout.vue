@@ -572,7 +572,13 @@
             <img
               :src="card.image"
               class="q-pa-md"
-              style="border-radius: 30px"
+              style="
+                border-radius: 30px;
+                width: 100%;
+                height: 220px;
+                object-fit: cover;
+                display: block;
+              "
             />
             <q-card-section class="q-pa-none">
               <q-item>
@@ -1224,23 +1230,21 @@ import javascript from 'src/assets/Javascript-logo.png';
 import typescript from 'src/assets/Typescript-logo.png';
 import vue3 from 'src/assets/Vue-logo.png';
 import nuxt from 'src/assets/nuxt.png';
-import photoshop from 'src/assets/Photoshop.png';
-import premierpro from 'src/assets/AdobePP-icon.png';
 import quasar from 'src/assets/quasar.png';
+import kafka from 'src/assets/kafka.png';
+import n8n from 'src/assets/n8n.png';
+import nestjs from 'src/assets/nestjs.png';
+import redis from 'src/assets/redis.png';
 import msoffice from 'src/assets/MSOffice-logo.png';
 import canva from 'src/assets/Canva-icon.png';
 import git from 'src/assets/Git-Icon.png';
 import locationIcon from 'src/assets/location.png';
 import educationIcon from 'src/assets/mortarboard.png';
 import gpaIcon from 'src/assets/gpa.png';
-import mobile from 'src/assets/mobile-apps.gif';
 import web from 'src/assets/web-developer.gif';
-import bctech from 'src/assets/posters/bctech.jpg';
-import cpic from 'src/assets/posters/cpic.jpg';
-import customerpersona from 'src/assets/posters/customerpersona.png';
 import comdiv from 'src/assets/posters/e-comdiv.jpg';
-import immobile from 'src/assets/posters/immobile.jpg';
-import mypigfarm from 'src/assets/posters/mypigfarm.jpg';
+import srm1 from 'src/assets/srm/1.png';
+import weborder1 from 'src/assets/weborderfeedmill/1.png';
 
 const typedStrings =
   'a Designer, an Editor, a Web Developer, a Frontend Developer, a Graduate'; // This could be dynamic as well
@@ -1352,8 +1356,10 @@ const chips = [
   { color: '#e9e9e9', text: 'Vue3', image: vue3 },
   { color: '#e9e9e9', text: 'NuxtJs', image: nuxt },
   { color: '#e9e9e9', text: 'Quasar', image: quasar },
-  { color: '#e9e9e9', text: 'Photoshop', image: photoshop },
-  { color: '#e9e9e9', text: 'Premier pro', image: premierpro },
+  { color: '#e9e9e9', text: 'Kafka', image: kafka },
+  { color: '#e9e9e9', text: 'n8n', image: n8n },
+  { color: '#e9e9e9', text: 'NestJS', image: nestjs },
+  { color: '#e9e9e9', text: 'Redis', image: redis },
 
   { color: '#e9e9e9', text: 'Microsoft Office', image: msoffice },
   { color: '#e9e9e9', text: 'Canva', image: canva },
@@ -1373,50 +1379,26 @@ interface projectsCard {
 
 const cardsContent = ref<projectsCard[]>([
   {
-    title: 'Inventory Management (IM) mobile',
-    date: 'June 2023',
-    role: 'UI & UX Designer',
-    image: immobile,
-    avatar: figma,
-    trailing: mobile,
-  },
-  {
-    title: 'MyPigFarm',
-    date: 'December 2023',
-    role: 'UI & UX Designer',
-    image: mypigfarm,
-    avatar: figma,
-    trailing: mobile,
-  },
-  {
-    title: 'Charoen Pokphand Indonesia Commerce (CPIC)',
-    date: 'September 2024',
-    role: 'UI & UX Designer',
-    image: cpic,
-    avatar: figma,
-    trailing: mobile,
-  },
-  {
     title: 'E-Comdiv',
     date: 'March 2024',
-    role: 'UX Engineer',
+    role: 'Full-Stack Developer',
     image: comdiv,
     avatar: figma,
     trailing: web,
   },
   {
-    title: 'Customer Persona',
-    date: 'July 2023',
-    role: 'UX Engineer',
-    image: customerpersona,
+    title: 'SRM (Supplier Relationship Management)',
+    date: '2023',
+    role: 'Full-Stack Developer',
+    image: srm1,
     avatar: figma,
     trailing: web,
   },
   {
-    title: 'BC-Tech',
-    date: 'March 2025',
-    role: 'Front End Developer',
-    image: bctech,
+    title: 'WebOrder Feedmill',
+    date: '2022',
+    role: 'Full-Stack Developer',
+    image: weborder1,
     avatar: figma,
     trailing: web,
   },
@@ -1905,6 +1887,27 @@ ul li::marker {
 .projectCard:not(.hovered):not(.notHovered) {
   filter: grayscale(0);
   transform: scale(1);
+}
+
+/* Ensure project cards align to same height */
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 330px;
+}
+.projectCard .q-card-section {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projectCard img {
+  border-radius: 30px;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
 }
 
 /* Two-column timeline adjustments */
