@@ -1480,7 +1480,25 @@ const animateScrollRight = () => {
 
 .container {
   position: relative;
-  overflow: hidden;
+  overflow: visible; /* allow timeline lines and other overflow to be visible */
+}
+
+/* Ensure resume section can show timeline lines without clipping */
+.resume {
+  overflow: visible;
+}
+
+/* Ensure Quasar timeline vertical line is visible in the resume area */
+.resume .q-timeline__line {
+  background-color: #1976d2 !important;
+  width: 4px !important;
+  left: 28px !important;
+  z-index: 2 !important;
+  opacity: 1 !important;
+}
+
+.resume .q-timeline__entry {
+  padding-left: 64px !important;
 }
 
 #particles-background {
