@@ -155,7 +155,7 @@
 
                 <a
                   class="socialContainer containerThree"
-                  href="#"
+                  href="https://www.linkedin.com/in/charles-liu-700669292/"
                   target="_blank"
                 >
                   <svg viewBox="0 0 448 512" class="socialSvg linkdinSvg">
