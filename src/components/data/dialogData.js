@@ -47,9 +47,15 @@ export default [
     platform: 'Web Application',
     platformIcon: web,
     dialogImage: ecomdiv,
-    description:
-      'An enterprise-level communication and division management hub. Implements NestJS for scalable backend architecture and Quasar for a high-performance frontend. Kafka is utilized for real-time event streaming between divisions, while n8n handles complex workflow automations.',
-    spline: '',
+    description: `Originally conceived with a focus on UI/UX, this project was fully re-engineered into a robust enterprise-grade orchestration platform. As the lead Full-Stack Developer, I transitioned the architecture to NestJS, implementing a modular and highly scalable backend capable of handling complex organizational data structures across multiple divisions.
+
+  Real-time event streaming was integrated using Kafka to manage high-frequency data streams, ensuring inter-departmental communications and status updates occur with sub-second latency. I designed the message schemas and topic strategies to minimize duplication and guarantee eventual consistency across services.
+
+  On the frontend, I developed a reactive, high-performance user interface using the Quasar Framework. The UI maintains a single codebase across devices while providing advanced dashboards, role-based views, and data-heavy components optimized for large datasets.
+
+  To reduce manual operational overhead, I implemented workflow automation using n8n to orchestrate cross-service tasks—handling scheduled reports, document generation, and async notifications—bridging the gap between internal microservices and external integrations.`,
+    spline:
+      'https://my.spline.design/bctechcopy-b6f908cc57317a2e71b249c7e3feffb0/',
     featuresList: [
       { feature: 'Dashboard and master data modules' },
       { feature: 'Purchase Requisition flows and reporting' },
@@ -113,9 +119,13 @@ export default [
     platform: 'Web Application',
     platformIcon: web,
     dialogImage: srm1,
-    description:
-      'A comprehensive procurement ecosystem managing the flow from Purchase Order to Invoicing. Features RTD, GIT, and KOLI/Surat Jalan. Uses Redis for caching, and n8n to automate document triggers and notifications.',
-    spline: '',
+    description: `A comprehensive supply chain solution tracking the end-to-end lifecycle of procurement transactions. I implemented the core logic for Purchase Orders (PO), Request Time Delivery (RTD), and Goods In Transit (GIT), designing the data flows to preserve auditability and transactional integrity at every transition point.
+
+  Logistics and documentation were automated, including KOLI (packaging unit) management and the generation of Surat Jalan (shipping manifests). I engineered the BPB (Bukti Penerimaan Barang) and invoicing flows so the system accurately generates OA invoices for shipping costs and AP invoices for supplier payments while supporting partial deliveries and returns.
+
+  For performance and responsiveness, I integrated Redis for state caching and session handling, and used Vuetify to craft a clean, data-dense dashboard tailored for supplier efficiency. Background workflows and cross-system automations were handled via n8n to ensure reliable, auditable task execution across services.`,
+    spline:
+      'https://my.spline.design/bctechcopy-b6f908cc57317a2e71b249c7e3feffb0/',
     featuresList: [
       { feature: 'PO to Invoice workflow' },
       { feature: 'RTD / GIT modules and reports' },
@@ -159,9 +169,13 @@ export default [
     platform: 'Web Application',
     platformIcon: web,
     dialogImage: weborder1,
-    description:
-      'A B2B ordering platform digitalizing poultry feed procurement. Bridges front-end orders to SAP Web Services for real-time stock and SO/DO sync. Uses Redis for order queuing and n8n for automated backend processing.',
-    spline: '',
+    description: `A digital transformation platform for poultry feed procurement, engineered to replace manual factory workflows and integrate tightly with SAP Web Services for real-time stock, order, and delivery synchronization. I designed and implemented the bridge that syncs front-end orders with SAP, ensuring accurate Sales Order (SO) and Delivery Order (DO) lifecycle transitions.
+
+  The system replaces paper-based processes with an automated 'one-click' pipeline, converting raw orders into production-ready transactions and coordinating downstream logistics. I built advanced logic for truck assignment and expedition scheduling, and integrated GPS-based tracking tied into a mobile app for drivers to provide real-time location and status updates.
+
+  To ensure reliability under factory load, Redis is used for order queuing and to prevent timeouts during peak periods. Security is enforced through a granular Role-Based Access Control (RBAC) model covering Customers, Sales, and Admins, and complex retry/reconciliation logic handles intermittent SAP connectivity.`,
+    spline:
+      'https://my.spline.design/bctechcopy-b6f908cc57317a2e71b249c7e3feffb0/',
     featuresList: [
       { feature: 'Order sync with SAP' },
       { feature: 'Queueing with Redis' },
