@@ -1,1 +1,0 @@
-import{_ as o,o as t}from"./index.1c9145fe.js";import{A as a}from"./aos.98540740.js";var i={async mount(){await o(()=>Promise.resolve({}),["assets/aos.6b080981.css"]),t(()=>{a.init({duration:1e3,once:!0,offset:100})})}};export{i as default};

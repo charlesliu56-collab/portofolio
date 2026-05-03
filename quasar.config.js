@@ -1,15 +1,27 @@
 /* eslint-env node */
 
+/*
+ * This file runs in a Node context (it's NOT transpiled by Babel), so use only
+ * the ES version that your Node version supports.
+ */
+
 const { configure } = require('quasar/wrappers');
 
 module.exports = configure(function (/* ctx */) {
   return {
+    // https://v2.quasar.dev/quasar-cli-vite/boot-files
     boot: ['vueParticles', 'aos'],
 
+    // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#css
     css: ['app.scss'],
 
-    extras: ['roboto-font', 'material-icons'],
+    // https://github.com/quasarframework/quasar/tree/dev/extras
+    extras: [
+      'roboto-font',
+      'material-icons',
+    ],
 
+    // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-js#build
     build: {
       target: {
         browser: ['es2019', 'edge88', 'firefox78', 'chrome87', 'safari13.1'],
@@ -18,11 +30,12 @@ module.exports = configure(function (/* ctx */) {
 
       vueRouterMode: 'hash',
 
-      // 1. Arahkan hasil build ke folder 'docs' agar tidak mengotori root
+      // 1. Arahkan hasil build ke folder 'docs' sesuai kebutuhan GitHub Pages lo
       distDir: 'docs',
 
-      // 2. Gunakan './' agar path aset fleksibel dan tidak blank
-      publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
+      // 2. PAKSA pake path repository '/portofolio/' pas production
+      // Ini kunci biar aset lo nggak 404 pas di-deploy
+      publicPath: process.env.NODE_ENV === 'production' ? '/portofolio/' : '/',
 
       vitePlugins: [
         [
@@ -41,7 +54,7 @@ module.exports = configure(function (/* ctx */) {
     },
 
     devServer: {
-      open: true,
+      open: true, 
     },
 
     framework: {
@@ -54,7 +67,9 @@ module.exports = configure(function (/* ctx */) {
     ssr: {
       pwa: false,
       prodPort: 3000,
-      middlewares: ['render'],
+      middlewares: [
+        'render',
+      ],
     },
 
     pwa: {
