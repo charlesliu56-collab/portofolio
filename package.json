@@ -2,8 +2,8 @@
   "name": "template",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "Joshua's Portfolio",
-  "author": "joshua.limerson <joshua.limerson@cp.co.id>",
+  "productName": "Charles Liu - Portfolio",
+  "author": "Charles Liu <charles.liu56@gmail.com>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",

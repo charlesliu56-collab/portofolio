@@ -1,88 +1,13 @@
-import mobile from 'src/assets/mobile-apps.gif';
 import web from 'src/assets/web-developer.gif';
-//posters
-import cpic from 'src/assets/posters/cpic.jpg';
-import ecomdiv from 'src/assets/posters/e-comdiv.jpg';
-import immobile from 'src/assets/posters/immobile.jpg';
-import mypigfarm from 'src/assets/posters/mypigfarm.jpg';
-import srm1 from 'src/assets/srm/1.png';
-import srm2 from 'src/assets/srm/2.png';
-import srm3 from 'src/assets/srm/3.png';
-import srm4 from 'src/assets/srm/4.png';
-import srm5 from 'src/assets/srm/5.png';
-import srm6 from 'src/assets/srm/6.png';
-import weborderfeedmill1 from 'src/assets/weborderfeedmill/1.png';
-import weborderfeedmill2 from 'src/assets/weborderfeedmill/2.png';
-import weborderfeedmill3 from 'src/assets/weborderfeedmill/3.png';
-import weborderfeedmill4 from 'src/assets/weborderfeedmill/4.png';
-import weborderfeedmill5 from 'src/assets/weborderfeedmill/5.png';
-import weborderfeedmill6 from 'src/assets/weborderfeedmill/6.png';
-import weborderfeedmill7 from 'src/assets/weborderfeedmill/7.png';
-//icons
-import figma from 'src/assets/Figma-logo.png';
-import html from 'src/assets/HTML5-Badge.png';
-import css from 'src/assets/CSS3-logo.png';
-import javascript from 'src/assets/Javascript-logo.png';
-import typescript from 'src/assets/Typescript-logo.png';
-import vue3 from 'src/assets/Vue-logo.png';
 import quasar from 'src/assets/quasar.png';
-import msoffice from 'src/assets/MSOffice-logo.png';
-import canva from 'src/assets/Canva-icon.png';
-import git from 'src/assets/Git-Icon.png';
-import nestjs from 'src/assets/nestjs.png';
-import n8n from 'src/assets/n8n.png';
 import kafka from 'src/assets/kafka.png';
+import n8n from 'src/assets/n8n.png';
+import nestjs from 'src/assets/nestjs.png';
 import redis from 'src/assets/redis.png';
-//immobile
-import immobile1 from 'src/assets/immobile/1.png';
-import immobile2 from 'src/assets/immobile/2.png';
-import immobile3 from 'src/assets/immobile/3.png';
-import immobile4 from 'src/assets/immobile/4.png';
-import immobile5 from 'src/assets/immobile/5.png';
-import immobile6 from 'src/assets/immobile/6.png';
-import immobile7 from 'src/assets/immobile/7.png';
-import immobile9 from 'src/assets/immobile/9.png';
-import immobile10 from 'src/assets/immobile/10.png';
-import immobile11 from 'src/assets/immobile/11.png';
-import immobile13 from 'src/assets/immobile/13.png';
-import immobile14 from 'src/assets/immobile/14.png';
-import immobile15 from 'src/assets/immobile/15.png';
-import immobile16 from 'src/assets/immobile/16.png';
-//mypigfarm
-import mypigfarm1 from 'src/assets/mypigfarm/1.png';
-import mypigfarm2 from 'src/assets/mypigfarm/2.png';
-import mypigfarm3 from 'src/assets/mypigfarm/3.png';
-import mypigfarm4 from 'src/assets/mypigfarm/4.png';
-import mypigfarm5 from 'src/assets/mypigfarm/5.png';
-import mypigfarm6 from 'src/assets/mypigfarm/6.png';
-import mypigfarm7 from 'src/assets/mypigfarm/7.png';
-import mypigfarm8 from 'src/assets/mypigfarm/8.png';
-import mypigfarm9 from 'src/assets/mypigfarm/9.png';
-import mypigfarm10 from 'src/assets/mypigfarm/10.png';
-import mypigfarm11 from 'src/assets/mypigfarm/11.png';
-import mypigfarm12 from 'src/assets/mypigfarm/12.png';
-import mypigfarm13 from 'src/assets/mypigfarm/13.png';
-import mypigfarm14 from 'src/assets/mypigfarm/14.png';
-import mypigfarm15 from 'src/assets/mypigfarm/15.png';
-import mypigfarm16 from 'src/assets/mypigfarm/16.png';
-//cpic
-import cpic1 from 'src/assets/cpic/1.png';
-import cpic2 from 'src/assets/cpic/2.png';
-import cpic3 from 'src/assets/cpic/3.png';
-import cpic4 from 'src/assets/cpic/4.png';
-import cpic5 from 'src/assets/cpic/5.png';
-import cpic6 from 'src/assets/cpic/6.png';
-import cpic7 from 'src/assets/cpic/7.png';
-import cpic8 from 'src/assets/cpic/8.png';
-import cpic9 from 'src/assets/cpic/9.png';
-import cpic10 from 'src/assets/cpic/10.png';
-import cpic11 from 'src/assets/cpic/11.png';
-import cpic12 from 'src/assets/cpic/12.png';
-import cpic13 from 'src/assets/cpic/13.png';
-import cpic14 from 'src/assets/cpic/14.png';
-import cpic15 from 'src/assets/cpic/15.png';
-import cpic16 from 'src/assets/cpic/16.png';
-//cpic
+import git from 'src/assets/Git-Icon.png';
+import html from 'src/assets/HTML5-Badge.png';
+
+import ecomdiv from 'src/assets/posters/e-comdiv.jpg';
 import ecomdiv1 from 'src/assets/ecomdiv/1.png';
 import ecomdiv2 from 'src/assets/ecomdiv/2.png';
 import ecomdiv3 from 'src/assets/ecomdiv/3.png';
@@ -96,607 +21,64 @@ import ecomdiv10 from 'src/assets/ecomdiv/10.png';
 import ecomdiv11 from 'src/assets/ecomdiv/11.png';
 import ecomdiv12 from 'src/assets/ecomdiv/12.png';
 import ecomdiv13 from 'src/assets/ecomdiv/13.png';
+import srm1 from 'src/assets/srm/1.png';
+import srm2 from 'src/assets/srm/2.png';
+import srm3 from 'src/assets/srm/3.png';
+import srm4 from 'src/assets/srm/4.png';
+import srm5 from 'src/assets/srm/5.png';
+import srm6 from 'src/assets/srm/6.png';
+import weborder1 from 'src/assets/weborderfeedmill/1.png';
+import weborder2 from 'src/assets/weborderfeedmill/2.png';
+import weborder3 from 'src/assets/weborderfeedmill/3.png';
+import weborder4 from 'src/assets/weborderfeedmill/4.png';
+import weborder5 from 'src/assets/weborderfeedmill/5.png';
+import weborder6 from 'src/assets/weborderfeedmill/6.png';
+import weborder7 from 'src/assets/weborderfeedmill/7.png';
 
 export default [
   {
     id: 1,
-    color: '#f44236',
-    background: '#fdd9d7',
-    title: 'Inventory Management (IM) Mobile',
-    role: 'UI / UX Designer',
-    displayImage: immobile,
-    company: 'Crown Pacific Beverage Pte Ltd',
-    platform: 'Mobile Application',
-    platformIcon: mobile,
-    dialogImage: immobile,
-    description:
-      'IM Mobile is a warehouse management system (WMS) mobile application that supports warehouse to monitor the entry and exit of stocks. So that every stock that is being picked and received is accurate and precisely recorded. The user of IM Mobile is split into roles.',
-    spline:
-      'https://my.spline.design/immobile-bbc39d9ae8c1c97649350437d79b9a36/',
-    featuresList: [
-      {
-        feature:
-          'In: To check and submit the number of goods ordered from the vendor (via PO) that are received at the warehouse and entered as stock at the warehouse.​',
-      },
-      {
-        feature:
-          'Out: To check and verify the stock request items that are being picked by vansales and sent to the designated location from the warehouse.',
-      },
-      {
-        feature:
-          'Stock Take: To check, verify, and validate number of stocks that is categorized in the warehouse.',
-      },
-    ],
-    toolsList: [
-      {
-        tool: 'Figma',
-        icon: figma,
-        background: '#c8e6c9',
-      },
-      {
-        tool: 'Canva',
-        icon: canva,
-        background: '#c8e6c9',
-      },
-      {
-        tool: 'Office',
-        icon: msoffice,
-        background: '#c8e6c9',
-      },
-    ],
-    colorPaletteList: [
-      { title: 'Primary', hex: '#f44236', background: '#fdd9d7' },
-      { title: 'Secondary', hex: '#a9a9a9', background: '#e5e5e5' },
-      { title: 'Accent', hex: '#2cab0c', background: '#d5eece' },
-      { title: 'Accent 2', hex: '#10a3f5', background: '#cfedfd' },
-    ],
-    typography: 'Roboto',
-    typographySizeList: [
-      { title: '22px' },
-      { title: '20px' },
-      { title: '16px' },
-      { title: '14px' },
-    ],
-    typographyWeightList: [
-      { title: '700' },
-      { title: '600' },
-      { title: '400' },
-    ],
-    timelinesList: [
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-    ],
-    screenshots: [
-      { image: immobile1 },
-      { image: immobile2 },
-      { image: immobile3 },
-      { image: immobile4 },
-      { image: immobile5 },
-      { image: immobile6 },
-      { image: immobile7 },
-      { image: immobile9 },
-      { image: immobile10 },
-      { image: immobile11 },
-      { image: immobile13 },
-      { image: immobile14 },
-      { image: immobile15 },
-      { image: immobile16 },
-    ],
-    informationsList: [
-      {
-        icon: 'calendar_month',
-        title: 'Release Date',
-        description: 'June 2023',
-      },
-      {
-        icon: 'account_circle',
-        title: 'Number of Users',
-        description: '1 Manager, 1 warehouse head, 3 warehouse staff',
-      },
-      {
-        icon: 'category',
-        title: 'Category',
-        description: 'warehouse',
-      },
-      {
-        icon: 'inventory_2',
-        title: 'Published By',
-        description: 'Crown Pacific Beverage Pte Ltd',
-      },
-      {
-        icon: 'language',
-        title: 'Language',
-        description: 'Engish',
-      },
-      {
-        icon: 'devices',
-        title: 'Available On',
-        description: 'Zebra TC26 Touch Computer (Internal Device)',
-      },
-    ],
-  },
-  {
-    id: 2,
-    color: '#8bc349',
-    background: '#e7f3da',
-    title: 'My PigFarm',
-    role: 'UI / UX Designer',
-    displayImage: mypigfarm,
-    company: 'PT Charoen Pokphand Indonesia Tbk',
-    platform: 'Mobile Application',
-    platformIcon: mobile,
-    dialogImage: mypigfarm,
-    description:
-      'The My Pigfarm app is a powerful tool for pig breeders, allowing easy tracking of breeding, farrowing, and weaning. It helps manage stock, monitor pig growth, and streamline the selling process, all in real-time. With this app, breeders can efficiently oversee their farm’s productivity and operations from anywhere.',
-    spline:
-      'https://my.spline.design/untitled-604f9b42db975235f7f89b8e6c480871/',
-    featuresList: [
-      {
-        feature:
-          'Pig List: A detailed list of swine available on the farm, allowing actions to be performed for each individual swine.',
-      },
-      {
-        feature:
-          'Inventory List: A summary of the total number of swine, vaccinated animals, and feed stock available on the farm.',
-      },
-      {
-        feature:
-          'Feed: A record of feed received at the farm and added to stock inventory.',
-      },
-      {
-        feature:
-          'Vacmed: A record of vaccines and medicines received at the farm and added to stock inventory.',
-      },
-      {
-        feature: 'Kawin: An event where a sow is bred to initiate pregnancy.',
-      },
-      {
-        feature:
-          'Konfirmasi Bunting: An event to confirm pregnancy status 21 days after breeding (kawin).',
-      },
-      {
-        feature:
-          'Farrowing: An event marking the sows delivery of piglets, typically 114 days post-breeding.',
-      },
-      {
-        feature:
-          'Nafsu Makan: An event to assess the sow’s appetite after giving birth.',
-      },
-      {
-        feature:
-          'Weaning: An event documenting the number of piglets weaned by the sow.',
-      },
-      {
-        feature:
-          'Relocation: The process of transferring swine to another farm.',
-      },
-      {
-        feature:
-          'Transit: A temporary holding location for swine before relocation.',
-      },
-      {
-        feature:
-          'Semen Tapping: An event for collecting sperm from an active boar.',
-      },
-      {
-        feature:
-          'Condition: An event used to record if a swine is infected with a disease.',
-      },
-      {
-        feature: 'Treatment: Actions administered to treat diseased swine.',
-      },
-      {
-        feature:
-          'Entry: An activity for checking and recording the number of swine received at the farm.',
-      },
-      {
-        feature:
-          'Exit: An activity for checking and recording the number of swine leaving the farm due to death.',
-      },
-      {
-        feature:
-          'SPPB: An activity for checking and recording the number of swine sold from the farm.',
-      },
-      {
-        feature:
-          'Transfer: The process of transferring feed stock to another farm.',
-      },
-      {
-        feature:
-          'Daily MW Stock: A daily activity for checking and validating swine stock on the farm.',
-      },
-    ],
-    toolsList: [
-      {
-        tool: 'Figma',
-        icon: figma,
-        background: '#c8e6c9',
-      },
-      {
-        tool: 'Canva',
-        icon: canva,
-        background: '#c8e6c9',
-      },
-      {
-        tool: 'Office',
-        icon: msoffice,
-        background: '#c8e6c9',
-      },
-    ],
-    colorPaletteList: [
-      { title: 'Primary', hex: '#8bc349', background: '#e7f3da' },
-      { title: 'Secondary', hex: '#979797', background: '#eaeaea' },
-      { title: 'Accent', hex: '#d59b0f', background: '#f6ebcf' },
-      { title: 'Accent 2', hex: '#e14a00', background: '#f9dacc' },
-      { title: 'Accent 3', hex: '#cc0000', background: '#f4cccc' },
-      { title: 'Accent 4', hex: '#2196f3', background: '#d2eafc' },
-    ],
-    typography: 'Roboto',
-    typographySizeList: [
-      { title: '24px' },
-      { title: '20px' },
-      { title: '16px' },
-      { title: '14px' },
-    ],
-    typographyWeightList: [
-      { title: '700' },
-      { title: '600' },
-      { title: '400' },
-    ],
-    timelinesList: [
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-    ],
-    screenshots: [
-      { image: mypigfarm1 },
-      { image: mypigfarm2 },
-      { image: mypigfarm3 },
-      { image: mypigfarm4 },
-      { image: mypigfarm5 },
-      { image: mypigfarm6 },
-      { image: mypigfarm7 },
-      { image: mypigfarm8 },
-      { image: mypigfarm9 },
-      { image: mypigfarm10 },
-      { image: mypigfarm11 },
-      { image: mypigfarm12 },
-      { image: mypigfarm13 },
-      { image: mypigfarm14 },
-      { image: mypigfarm15 },
-      { image: mypigfarm16 },
-    ],
-    informationsList: [
-      {
-        icon: 'calendar_month',
-        title: 'Release Date',
-        description: 'December 2023',
-      },
-      {
-        icon: 'account_circle',
-        title: 'Number of Users',
-        description: '50+',
-      },
-      {
-        icon: 'category',
-        title: 'Category',
-        description: 'Farm Management',
-      },
-      {
-        icon: 'inventory_2',
-        title: 'Published By',
-        description: 'PT Charoen Pokphand Indonesia Tbk',
-      },
-      {
-        icon: 'language',
-        title: 'Language',
-        description: 'Bahasa Indonesia',
-      },
-      {
-        icon: 'devices',
-        title: 'Available On',
-        description: 'Google Play Store (Android)',
-      },
-    ],
-  },
-  {
-    id: 3,
-    color: '#327ab7',
-    background: '#d6e4f0',
-    title: 'Charoen Pokphand Indonesia Commerce (CPIC)',
-    role: 'UI / UX Designer',
-    displayImage: cpic,
-    company: 'PT Charoen Pokphand Indonesia Tbk',
-    platform: 'Mobile Application',
-    platformIcon: mobile,
-    dialogImage: cpic,
-    description:
-      'CPI Commerce (CPIC) is an innovative mobile app designed to streamline and simplify the management of Purchase Requisitions (PR) and access to CPIs e-Townhall. With its user-friendly interface and robust features, CPIC ensures efficient procurement workflows and smooth document management.',
-    spline: 'https://my.spline.design/cpic-2e4dc3f067349853e7397eb4ac78c7d0/',
-    featuresList: [
-      {
-        feature:
-          'Purchase Requisitions (PR): Create, manage, and track your PRs with ease.​',
-      },
-      {
-        feature:
-          'Upload RMM: Securely upload and store RMM (Requisition Material Management) documents.',
-      },
-      {
-        feature:
-          '⁠Document History: View detailed history and status of all your documents.',
-      },
-      {
-        feature:
-          ' ⁠Cart & Catalog: Browse and add items to your cart directly from the product catalog.',
-      },
-    ],
-    toolsList: [
-      {
-        tool: 'Figma',
-        icon: figma,
-        background: '#c8e6c9',
-      },
-      {
-        tool: 'Canva',
-        icon: canva,
-        background: '#c8e6c9',
-      },
-      {
-        tool: 'Office',
-        icon: msoffice,
-        background: '#c8e6c9',
-      },
-    ],
-    colorPaletteList: [
-      { title: 'Primary', hex: '#327ab7', background: '#d6e4f0' },
-      { title: 'Secondary', hex: '#979898', background: '#eaeaea' },
-      { title: 'Accent', hex: '#f44336', background: '#fcd9d6' },
-      { title: 'Accent 2', hex: '#ee4d2d', background: '#fbdbd5' },
-      { title: 'Accent 3', hex: '#4cb050', background: '#dbefdc' },
-      { title: 'Accent 4', hex: '#fed129', background: '#fef5d4' },
-    ],
-    typography: 'Roboto',
-    typographySizeList: [
-      { title: '22px' },
-      { title: '20px' },
-      { title: '16px' },
-      { title: '14px' },
-    ],
-    typographyWeightList: [
-      { title: '700' },
-      { title: '600' },
-      { title: '400' },
-    ],
-    timelinesList: [
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-    ],
-    screenshots: [
-      { image: cpic1 },
-      { image: cpic2 },
-      { image: cpic3 },
-      { image: cpic4 },
-      { image: cpic5 },
-      { image: cpic6 },
-      { image: cpic7 },
-      { image: cpic8 },
-      { image: cpic9 },
-      { image: cpic10 },
-      { image: cpic11 },
-      { image: cpic12 },
-      { image: cpic13 },
-      { image: cpic14 },
-      { image: cpic15 },
-      { image: cpic16 },
-    ],
-    informationsList: [
-      {
-        icon: 'calendar_month',
-        title: 'Release Date',
-        description: 'September 2024',
-      },
-      {
-        icon: 'account_circle',
-        title: 'Number of Users',
-        description: '1,000+',
-      },
-      {
-        icon: 'category',
-        title: 'Category',
-        description: 'Productivity',
-      },
-      {
-        icon: 'inventory_2',
-        title: 'Published By',
-        description: 'PT Charoen Pokphand Indonesia Tbk',
-      },
-      {
-        icon: 'language',
-        title: 'Language',
-        description: 'Engish & Bahasa Indonesia',
-      },
-      {
-        icon: 'devices',
-        title: 'Available On',
-        description: 'Google Play Store (Android) & App Store (IOS)',
-      },
-    ],
-  },
-  {
-    id: 4,
     color: '#1976d2',
     background: '#d1e3f6',
     title: 'E-Comdiv',
-    role: 'Full Stack Developer',
+    role: 'Full-Stack Developer',
     displayImage: ecomdiv,
     company: 'PT Charoen Pokphand Indonesia Tbk',
     platform: 'Web Application',
     platformIcon: web,
     dialogImage: ecomdiv,
-    description:
-      'E-Comdiv is a full stack web application for procurement and supplier management. Built with NestJS, Quasar, Redis, Kafka, and n8n, it enables users to create purchase orders, manage invoices, and coordinate supplier workflows through a centralized system.',
+    description: `Originally conceived with a focus on UI/UX, this project was fully re-engineered into a robust enterprise-grade orchestration platform. As the lead Full-Stack Developer, I transitioned the architecture to NestJS, implementing a modular and highly scalable backend capable of handling complex organizational data structures across multiple divisions.
+
+  Real-time event streaming was integrated using Kafka to manage high-frequency data streams, ensuring inter-departmental communications and status updates occur with sub-second latency. I designed the message schemas and topic strategies to minimize duplication and guarantee eventual consistency across services.
+
+  On the frontend, I developed a reactive, high-performance user interface using the Quasar Framework. The UI maintains a single codebase across devices while providing advanced dashboards, role-based views, and data-heavy components optimized for large datasets.
+
+  To reduce manual operational overhead, I implemented workflow automation using n8n to orchestrate cross-service tasks—handling scheduled reports, document generation, and async notifications—bridging the gap between internal microservices and external integrations.`,
     spline:
       'https://my.spline.design/bctechcopy-b6f908cc57317a2e71b249c7e3feffb0/',
     featuresList: [
-      {
-        feature: 'Dashboard: The first page that users access after login.​',
-      },
-      {
-        feature:
-          'Request Material Master: List of Material Request created by users from the  mobile application.',
-      },
-      {
-        feature:
-          'PR Assignment: Contains list of purchase requisition with and without PIC where user can assign PIC to a PR.',
-      },
-      {
-        feature: 'List PR No PIC: List of purchase requisition with no PIC.',
-      },
-      {
-        feature: 'List PR: List of purchase requisition with assigned PIC.',
-      },
-      {
-        feature:
-          'Reports - National by Month: The data reports of purchase orders are presented in tabular form and can be filtered by month.',
-      },
-      {
-        feature:
-          'Reports - National by Region: The data reports of purchase orders are presented in tabular form, separated by region.',
-      },
-      {
-        feature:
-          'Master Data: Contains a list of submenus master data where user can maintan important data.',
-      },
+      { feature: 'Dashboard and master data modules' },
+      { feature: 'Purchase Requisition flows and reporting' },
+      { feature: 'Real-time event streaming for division sync' },
     ],
     toolsList: [
-      {
-        tool: 'HTML5',
-        icon: html,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'CSS',
-        icon: css,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'JS',
-        icon: javascript,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'TS',
-        icon: typescript,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Vue3',
-        icon: vue3,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Quasar',
-        icon: quasar,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'NestJS',
-        icon: nestjs,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Redis',
-        icon: redis,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Kafka',
-        icon: kafka,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'n8n',
-        icon: n8n,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Git',
-        icon: git,
-        background: '#d1e3f6',
-      },
+      { tool: 'NestJS', icon: nestjs, background: '#d1e3f6' },
+      { tool: 'Quasar', icon: quasar, background: '#d1e3f6' },
+      { tool: 'Kafka', icon: kafka, background: '#d1e3f6' },
+      { tool: 'n8n', icon: n8n, background: '#d1e3f6' },
+      { tool: 'Git', icon: git, background: '#d1e3f6' },
     ],
     colorPaletteList: [
       { title: 'Primary', hex: '#1976d2', background: '#d1e3f6' },
-      { title: 'Secondary', hex: '#727171', background: '#e2e2e2' },
-      { title: 'Error', hex: '#c82436', background: '#f4d3d6' },
-      { title: 'Positive', hex: '#4caf50', background: '#dbefdc' },
-      { title: 'Accent', hex: '#ff9800', background: '#ffeacc' },
-      { title: 'Accent 2', hex: '#9c27b0', background: '#ebd3ef' },
-      { title: 'Accent 3', hex: '#795548', background: '#e4ddda' },
     ],
     typography: 'Roboto',
     typographySizeList: [
       { title: '34px' },
       { title: '24px' },
       { title: '20px' },
-      { title: '16px' },
-      { title: '14px' },
-      { title: '13px' },
-      { title: '12px' },
     ],
     typographyWeightList: [{ title: '700' }, { title: '400' }],
-    timelinesList: [
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-    ],
+    timelinesList: [],
     screenshots: [
       { image: ecomdiv1 },
       { image: ecomdiv2 },
@@ -719,167 +101,49 @@ export default [
         description: 'March 2024',
       },
       {
-        icon: 'account_circle',
-        title: 'Number of Users',
-        description:
-          '11 Admin, 86 Buyer, 9 Group Head, 14 Regional Head, 8 Team Data',
-      },
-      {
         icon: 'category',
         title: 'Category',
-        description: 'Procurement',
-      },
-      {
-        icon: 'inventory_2',
-        title: 'Published By',
-        description: 'PT Charoen Pokphand Indonesia Tbk',
-      },
-      {
-        icon: 'language',
-        title: 'Language',
-        description: 'Engish & Bahasa Indonesia',
-      },
-      {
-        icon: 'devices',
-        title: 'Available On',
-        description: 'Web (https://e-comdiv.cp.co.id/)',
+        description: 'Procurement / Division Management',
       },
     ],
   },
+
   {
-    id: 5,
-    color: '#2e7d32',
-    background: '#dcefd8',
-    title: 'Supplier Relationship Management',
-    role: 'Full Stack Developer',
+    id: 2,
+    color: '#5c6bc0',
+    background: '#e9edfb',
+    title: 'SRM (Supplier Relationship Management)',
+    role: 'Full-Stack Developer',
     displayImage: srm1,
     company: 'PT Charoen Pokphand Indonesia Tbk',
     platform: 'Web Application',
     platformIcon: web,
-    dialogImage: srm2,
-    description:
-      'Designed and built a Supplier Relationship Management platform to streamline procurement, supplier documentation, and financial reconciliation between suppliers, Comdiv warehouses, and buyers.',
+    dialogImage: srm1,
+    description: `A comprehensive supply chain solution tracking the end-to-end lifecycle of procurement transactions. I implemented the core logic for Purchase Orders (PO), Request Time Delivery (RTD), and Goods In Transit (GIT), designing the data flows to preserve auditability and transactional integrity at every transition point.
+
+  Logistics and documentation were automated, including KOLI (packaging unit) management and the generation of Surat Jalan (shipping manifests). I engineered the BPB (Bukti Penerimaan Barang) and invoicing flows so the system accurately generates OA invoices for shipping costs and AP invoices for supplier payments while supporting partial deliveries and returns.
+
+  For performance and responsiveness, I integrated Redis for state caching and session handling, and used Vuetify to craft a clean, data-dense dashboard tailored for supplier efficiency. Background workflows and cross-system automations were handled via n8n to ensure reliable, auditable task execution across services.`,
     spline:
-      'https://my.spline.design/macbookprocopy-e7ab0350d459104c304deb7e3ba629a8/',
+      'https://my.spline.design/bctechcopy-b6f908cc57317a2e71b249c7e3feffb0/',
     featuresList: [
-      {
-        feature:
-          'Purchase Order Management: Captures supplier orders, approvals, and delivery instructions in a single digital workflow.',
-      },
-      {
-        feature:
-          'Request Time Delivery (RTD): Enables supplier scheduling for warehouse logistics and improves inbound shipment planning.',
-      },
-      {
-        feature:
-          'Goods In Transit (GIT): Tracks inventory movement from supplier origin to the central hub with real-time status updates.',
-      },
-      {
-        feature:
-          'Automated KOLI and Shipping Manifests: Generates compliant KOLI packing labels and Surat Jalan for trucking operations.',
-      },
-      {
-        feature:
-          'Goods Received (BPB/GR): Confirms delivery and validates receipts before invoices are processed.',
-      },
-      {
-        feature:
-          'AP/AR Integration: Automates OA invoices for shipping costs and AP invoices for supplier commodity payments.',
-      },
+      { feature: 'PO to Invoice workflow' },
+      { feature: 'RTD / GIT modules and reports' },
+      { feature: 'Logistics document automation' },
     ],
     toolsList: [
-      {
-        tool: 'HTML5',
-        icon: html,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'CSS',
-        icon: css,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'JS',
-        icon: javascript,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'TS',
-        icon: typescript,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Vue3',
-        icon: vue3,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Quasar',
-        icon: quasar,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'NestJS',
-        icon: nestjs,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Redis',
-        icon: redis,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Kafka',
-        icon: kafka,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'n8n',
-        icon: n8n,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Git',
-        icon: git,
-        background: '#d1e3f6',
-      },
+      { tool: 'HTML', icon: html, background: '#e9edfb' },
+      { tool: 'Quasar', icon: quasar, background: '#e9edfb' },
+      { tool: 'Redis', icon: redis, background: '#e9edfb' },
+      { tool: 'n8n', icon: n8n, background: '#e9edfb' },
     ],
     colorPaletteList: [
-      { title: 'Primary', hex: '#343399', background: '#d6d6ea' },
-      { title: 'Secondary', hex: '#d5d5d5', background: '#f6f6f6' },
-      { title: 'Positive', hex: '#24bb47', background: '#d3f1da' },
-      { title: 'Negative', hex: '#c10015', background: '#f2ccd0' },
-      { title: 'Accent', hex: '#0487df', background: '#cce7f8' },
+      { title: 'Primary', hex: '#5c6bc0', background: '#e9edfb' },
     ],
     typography: 'Roboto',
-    typographySizeList: [
-      { title: '24px' },
-      { title: '20px' },
-      { title: '16px' },
-      { title: '14px' },
-      { title: '13px' },
-    ],
-    typographyWeightList: [
-      { title: '700' },
-      { title: '500' },
-      { title: '400' },
-    ],
-    timelinesList: [
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-    ],
+    typographySizeList: [{ title: '24px' }, { title: '16px' }],
+    typographyWeightList: [{ title: '700' }, { title: '400' }],
+    timelinesList: [],
     screenshots: [
       { image: srm1 },
       { image: srm2 },
@@ -889,210 +153,58 @@ export default [
       { image: srm6 },
     ],
     informationsList: [
-      {
-        icon: 'calendar_month',
-        title: 'Release Date',
-        description: 'October 2024',
-      },
-      {
-        icon: 'account_circle',
-        title: 'Number of Users',
-        description: '220 Users',
-      },
-      {
-        icon: 'category',
-        title: 'Category',
-        description: 'Supplier Relationship Management',
-      },
-      {
-        icon: 'inventory_2',
-        title: 'Published By',
-        description: 'PT Charoen Pokphand Indonesia Tbk',
-      },
-      {
-        icon: 'language',
-        title: 'Language',
-        description: 'English & Bahasa Indonesia',
-      },
-      {
-        icon: 'devices',
-        title: 'Available On',
-        description: 'Web Application',
-      },
+      { icon: 'calendar_month', title: 'Release Date', description: '2023' },
+      { icon: 'category', title: 'Category', description: 'Procurement' },
     ],
   },
+
   {
-    id: 6,
-    color: '#1e88e5',
-    background: '#d9e8fb',
-    title: 'Feedmill Web Order System',
-    role: 'Full Stack Developer',
-    displayImage: weborderfeedmill1,
-    company: 'PT Charoen Pokphand Indonesia Tbk',
+    id: 3,
+    color: '#009688',
+    background: '#e6f6f3',
+    title: 'WebOrder Feedmill',
+    role: 'Full-Stack Developer',
+    displayImage: weborder1,
+    company: 'Internal B2B',
     platform: 'Web Application',
     platformIcon: web,
-    dialogImage: weborderfeedmill2,
-    description:
-      'Developed a comprehensive end-to-end ordering ecosystem to digitalize and automate poultry feed procurement, replacing manual paper-based workflows with a synchronized system.',
-    spline: 'https://my.spline.design/bctech-82ccc6217aa804768dee045ce83ece76/',
+    dialogImage: weborder1,
+    description: `A digital transformation platform for poultry feed procurement, engineered to replace manual factory workflows and integrate tightly with SAP Web Services for real-time stock, order, and delivery synchronization. I designed and implemented the bridge that syncs front-end orders with SAP, ensuring accurate Sales Order (SO) and Delivery Order (DO) lifecycle transitions.
+
+  The system replaces paper-based processes with an automated 'one-click' pipeline, converting raw orders into production-ready transactions and coordinating downstream logistics. I built advanced logic for truck assignment and expedition scheduling, and integrated GPS-based tracking tied into a mobile app for drivers to provide real-time location and status updates.
+
+  To ensure reliability under factory load, Redis is used for order queuing and to prevent timeouts during peak periods. Security is enforced through a granular Role-Based Access Control (RBAC) model covering Customers, Sales, and Admins, and complex retry/reconciliation logic handles intermittent SAP connectivity.`,
+    spline:
+      'https://my.spline.design/bctechcopy-b6f908cc57317a2e71b249c7e3feffb0/',
     featuresList: [
-      {
-        feature:
-          'Order Lifecycle: Manages requests from customer order creation through Sales Order and Delivery Order generation.',
-      },
-      {
-        feature:
-          'RBAC Security: Supports Customers, Sales, and Admins with role-based permissions and approval gates.',
-      },
-      {
-        feature:
-          'SAP Integration: Connects to SAP Web Services for stock updates and centralized accounting.',
-      },
-      {
-        feature:
-          'Logistics Tracking: Assigns expedition partners and monitors truck GPS movement in real-time.',
-      },
-      {
-        feature:
-          'Weight & Delivery Automation: Automates loading checks and delivery tracking for complete order-to-delivery visibility.',
-      },
+      { feature: 'Order sync with SAP' },
+      { feature: 'Queueing with Redis' },
+      { feature: 'n8n workflow automation' },
     ],
     toolsList: [
-      {
-        tool: 'HTML5',
-        icon: html,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'CSS',
-        icon: css,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'JS',
-        icon: javascript,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'TS',
-        icon: typescript,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Vue3',
-        icon: vue3,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Quasar',
-        icon: quasar,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'NestJS',
-        icon: nestjs,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Redis',
-        icon: redis,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Kafka',
-        icon: kafka,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'n8n',
-        icon: n8n,
-        background: '#d1e3f6',
-      },
-      {
-        tool: 'Git',
-        icon: git,
-        background: '#d1e3f6',
-      },
+      { tool: 'HTML', icon: html, background: '#e6f6f3' },
+      { tool: 'Redis', icon: redis, background: '#e6f6f3' },
+      { tool: 'n8n', icon: n8n, background: '#e6f6f3' },
     ],
     colorPaletteList: [
-      { title: 'Primary', hex: '#4caf50', background: '#dbefdc' },
-      { title: 'Secondary', hex: '#424242', background: '#d9d9d9' },
-      { title: 'Negative', hex: '#c10015', background: '#f2ccd0' },
-      { title: 'Accent', hex: '#1b5e20', background: '#d1ded2' },
-      { title: 'Accent 2', hex: '#5353e1', background: '#dcdcf9' },
+      { title: 'Primary', hex: '#009688', background: '#e6f6f3' },
     ],
-    typography: 'Poppins',
-    typographySizeList: [
-      { title: '48px' },
-      { title: '34px' },
-      { title: '24px' },
-      { title: '20px' },
-      { title: '16px' },
-      { title: '14px' },
-      { title: '13px' },
-      { title: '12px' },
-    ],
-    typographyWeightList: [
-      { title: '700' },
-      { title: '500' },
-      { title: '400' },
-    ],
-    timelinesList: [
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-      {
-        date: 'June 2024',
-        title: 'development',
-        decsription:
-          'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-        image: 'https://cdn.quasar.dev/img/parallax2.jpg',
-      },
-    ],
+    typography: 'Roboto',
+    typographySizeList: [{ title: '24px' }, { title: '16px' }],
+    typographyWeightList: [{ title: '700' }, { title: '400' }],
+    timelinesList: [],
     screenshots: [
-      { image: weborderfeedmill1 },
-      { image: weborderfeedmill2 },
-      { image: weborderfeedmill3 },
-      { image: weborderfeedmill4 },
-      { image: weborderfeedmill5 },
-      { image: weborderfeedmill6 },
-      { image: weborderfeedmill7 },
+      { image: weborder1 },
+      { image: weborder2 },
+      { image: weborder3 },
+      { image: weborder4 },
+      { image: weborder5 },
+      { image: weborder6 },
+      { image: weborder7 },
     ],
     informationsList: [
-      {
-        icon: 'calendar_month',
-        title: 'Release Date',
-        description: 'March 2024',
-      },
-      {
-        icon: 'account_circle',
-        title: 'Number of Users',
-        description: '150 Users',
-      },
-      {
-        icon: 'category',
-        title: 'Category',
-        description: 'Order Management',
-      },
-      {
-        icon: 'inventory_2',
-        title: 'Published By',
-        description: 'PT Charoen Pokphand Indonesia Tbk',
-      },
-      {
-        icon: 'language',
-        title: 'Language',
-        description: 'English & Bahasa Indonesia',
-      },
-      {
-        icon: 'devices',
-        title: 'Available On',
-        description: 'Web Application',
-      },
+      { icon: 'calendar_month', title: 'Release Date', description: '2022' },
+      { icon: 'category', title: 'Category', description: 'B2B Ordering' },
     ],
   },
 ];
