@@ -22,7 +22,7 @@ module.exports = configure(function (/* ctx */) {
       distDir: 'docs',
 
       // 2. Gunakan './' agar path aset fleksibel dan tidak blank
-      publicPath: './',
+      publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
 
       vitePlugins: [
         [
